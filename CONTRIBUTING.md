@@ -196,8 +196,10 @@ The "locations" can be any of the following:
 
 You can view examples and learn more about working with `locationSets` in the [@ideditor/location-conflation](https://github.com/ideditor/location-conflation/blob/main/README.md) project.
 
-⚡️ You can test locationSets on this interactive map:  https://ideditor.github.io/location-conflation/
++ ⚡️ You can find locationSets on this database: https://ideditor.codes/
++ ⚡️ You can test locationSets on this interactive playground map:  https://ideditor.github.io/location-conflation/
 
+Besides，accroding to the [discussion #4950](https://github.com/osmlab/name-suggestion-index/discussions/4950), when you are create new entries or modify existing one, if an entries can be defined in a more specific code with it, just do. 
 
 ##### `tags`
 
