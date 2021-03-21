@@ -15,7 +15,9 @@
       "locationSet": {"include": ["nl"]},
       "tags": {
         "network": "Arnhem-Nijmegen",
-        "operator": "Arnhem-Nijmegen",
+        "network:wikidata": "Q117142",
+        "operator": "Breng",
+        "operator:wikidata": "Q1968918",
         "route": "trolleybus"
       }
     },
@@ -27,9 +29,6 @@
         "network": "ATM",
         "network:wikidata": "Q381955",
         "network:wikipedia": "it:ATM (Milano)",
-        "operator": "ATM",
-        "operator:wikidata": "Q381955",
-        "operator:wikipedia": "it:ATM (Milano)",
         "route": "trolleybus"
       }
     },
@@ -41,19 +40,15 @@
         "network": "CTP (Compania de Transport Public Cluj Napoca SA)",
         "network:wikidata": "Q266625",
         "network:wikipedia": "ro:Compania de Transport Public Cluj-Napoca",
-        "operator": "CTP (Compania de Transport Public Cluj Napoca SA)",
-        "operator:wikidata": "Q266625",
-        "operator:wikipedia": "ro:Compania de Transport Public Cluj-Napoca",
         "route": "trolleybus"
       }
     },
     {
       "displayName": "cz:IDS JMK",
-      "id": "czidsjmk-97f884",
-      "locationSet": {"include": ["001"]},
+      "id": "czidsjmk-706c20",
+      "locationSet": {"include": ["cz"]},
       "tags": {
         "network": "cz:IDS JMK",
-        "operator": "cz:IDS JMK",
         "route": "trolleybus"
       }
     },
@@ -87,11 +82,11 @@
     },
     {
       "displayName": "King County Metro",
-      "id": "kingcountymetro-97f884",
-      "locationSet": {"include": ["001"]},
+      "id": "kingcountymetro-62d74d",
+      "locationSet": {"include": ["us"]},
       "tags": {
         "network": "King County Metro",
-        "operator": "King County Metro",
+        "network:wikidata": "Q6411393",
         "route": "trolleybus"
       }
     },
@@ -131,9 +126,6 @@
         "network": "MBTA",
         "network:wikidata": "Q171985",
         "network:wikipedia": "en:Massachusetts Bay Transportation Authority",
-        "operator": "MBTA",
-        "operator:wikidata": "Q171985",
-        "operator:wikipedia": "en:Massachusetts Bay Transportation Authority",
         "route": "trolleybus"
       }
     },
@@ -171,7 +163,6 @@
       "locationSet": {"include": ["cz"]},
       "tags": {
         "network": "MHD Jihlava",
-        "operator": "MHD Jihlava",
         "route": "trolleybus"
       }
     },
@@ -242,6 +233,15 @@
       }
     },
     {
+      "displayName": "Mobilis",
+      "id": "mobilis-97f884",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "network": "Mobilis",
+        "route": "trolleybus"
+      }
+    },
+    {
       "displayName": "ODIS",
       "id": "odis-706c20",
       "locationSet": {"include": ["cz"]},
@@ -278,9 +278,6 @@
         "network": "R.A.T. Brașov",
         "network:wikidata": "Q929687",
         "network:wikipedia": "de:Societatea de Transport Public Timișoara",
-        "operator": "R.A.T. Brașov",
-        "operator:wikidata": "Q929687",
-        "operator:wikipedia": "de:Societatea de Transport Public Timișoara",
         "route": "trolleybus"
       }
     },
@@ -292,7 +289,6 @@
         "network": "S.T.P.T.",
         "network:wikidata": "Q2010200",
         "network:wikipedia": "ro:Troleibuzele din Timișoara",
-        "operator": "S.T.P.T.",
         "operator:wikidata": "Q929687",
         "operator:wikipedia": "ro:Transportul public din Timișoara",
         "route": "trolleybus"
@@ -323,9 +319,6 @@
         "network": "SEPTA",
         "network:wikidata": "Q2037863",
         "network:wikipedia": "en:SEPTA",
-        "operator": "SEPTA",
-        "operator:wikidata": "Q2037863",
-        "operator:wikipedia": "en:SEPTA",
         "route": "trolleybus"
       }
     },
@@ -343,9 +336,6 @@
         "network:short": "STB",
         "network:wikidata": "Q2280353",
         "network:wikipedia": "en:Societatea de Transport București",
-        "operator": "Societatea de Transport București",
-        "operator:wikidata": "Q2280353",
-        "operator:wikipedia": "en:Societatea de Transport București",
         "route": "trolleybus"
       }
     },
@@ -355,7 +345,8 @@
       "locationSet": {"include": ["fr"]},
       "tags": {
         "network": "STCLM",
-        "operator": "STCLM",
+        "network:wikidata": "Q665810",
+        "network:wikipedia": "fr:Société de transports en commun de Limoges Métropole",
         "route": "trolleybus"
       }
     },
@@ -456,11 +447,14 @@
     },
     {
       "displayName": "VRR",
-      "id": "vrr-97f884",
-      "locationSet": {"include": ["001"]},
+      "id": "vrr-54cb1f",
+      "locationSet": {"include": ["de"]},
       "tags": {
         "network": "VRR",
-        "operator": "VRR",
+        "network:wikidata": "Q448199",
+        "operator": "Stadtwerke Solingen",
+        "operator:short": "SWS",
+        "operator:wikidata": "Q2328618",
         "route": "trolleybus"
       }
     },
@@ -520,7 +514,6 @@
       "locationSet": {"include": ["gr"]},
       "tags": {
         "network": "ΟΣΥ",
-        "operator": "ΟΣΥ",
         "route": "trolleybus"
       }
     },
@@ -544,7 +537,6 @@
       "locationSet": {"include": ["ua"]},
       "tags": {
         "network": "Вінницька мережа громадського транспорту",
-        "operator": "Вінницька мережа громадського транспорту",
         "route": "trolleybus"
       }
     },
@@ -554,7 +546,6 @@
       "locationSet": {"include": ["ru"]},
       "tags": {
         "network": "Городской общественный транспорт Екатеринбурга",
-        "operator": "Городской общественный транспорт Екатеринбурга",
         "route": "trolleybus"
       }
     },
@@ -564,7 +555,6 @@
       "locationSet": {"include": ["ru"]},
       "tags": {
         "network": "Городской общественный транспорт Нальчика",
-        "operator": "Городской общественный транспорт Нальчика",
         "route": "trolleybus"
       }
     },
@@ -574,7 +564,6 @@
       "locationSet": {"include": ["ua"]},
       "tags": {
         "network": "Івано-Франківський тролейбус",
-        "operator": "Івано-Франківський тролейбус",
         "route": "trolleybus"
       }
     },
@@ -584,7 +573,6 @@
       "locationSet": {"include": ["ua"]},
       "tags": {
         "network": "Київський тролейбус",
-        "operator": "Київський тролейбус",
         "route": "trolleybus"
       }
     },
@@ -594,7 +582,6 @@
       "locationSet": {"include": ["ua"]},
       "tags": {
         "network": "Міський громадський транспорт Маріуполя",
-        "operator": "Міський громадський транспорт Маріуполя",
         "route": "trolleybus"
       }
     },
@@ -604,7 +591,6 @@
       "locationSet": {"include": ["ru"]},
       "tags": {
         "network": "Оренбургская троллейбусная сеть",
-        "operator": "Оренбургская троллейбусная сеть",
         "route": "trolleybus"
       }
     },
@@ -614,7 +600,6 @@
       "locationSet": {"include": ["ru"]},
       "tags": {
         "network": "Петрозаводск",
-        "operator": "Петрозаводск",
         "route": "trolleybus"
       }
     },
@@ -625,8 +610,6 @@
       "tags": {
         "network": "평양 Trolleybus",
         "network:ko": "평양 Trolleybus",
-        "operator": "평양 Trolleybus",
-        "operator:ko": "평양 Trolleybus",
         "route": "trolleybus"
       }
     },
@@ -636,7 +619,6 @@
       "locationSet": {"include": ["cn"]},
       "tags": {
         "network": "济南公交——济南公交公司",
-        "operator": "济南公交——济南公交公司",
         "route": "trolleybus"
       }
     }
