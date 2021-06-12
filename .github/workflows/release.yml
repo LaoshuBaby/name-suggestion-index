@@ -15,11 +15,6 @@ jobs:
   build:
 
     runs-on: ubuntu-latest
-
-    strategy:
-      matrix:
-        node-version: [16.x]
-
     steps:
     
     - name: Init
@@ -28,7 +23,7 @@ jobs:
     - name: Run dist and wikidata
       uses: actions/setup-node@v1
       with:
-        node-version: ${{ matrix.node-version }}
+        node-version: 16.x
     - run: npm run dist
     - run: npm run wikidata
 
