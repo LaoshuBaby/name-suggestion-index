@@ -5,7 +5,7 @@ name: release
 
 on:
   schedule:
-    - cron: "0 3 * * *"  # scheduled at 06:00 (UTC+8) everyday
+    - cron: "0 3 * * 7"  # scheduled at 06:00 (UTC+8) every sunday
     # NY city in UTC-5 will be 22pm
     # London in UTC will be 3am
     # Beijing in UTC+8 will be 11am （Aus at 12am）
