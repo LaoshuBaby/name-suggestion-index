@@ -48,6 +48,22 @@
       }
     },
     {
+      "displayName": "Care Park",
+      "id": "carepark-e0a745",
+      "locationSet": {
+        "include": ["au", "my", "nz"]
+      },
+      "tags": {
+        "amenity": "parking",
+        "brand": "Care Park",
+        "brand:wikidata": "Q106625352",
+        "fee": "yes",
+        "name": "Care Park",
+        "operator": "Care Park",
+        "operator:wikidata": "Q106625352"
+      }
+    },
+    {
       "displayName": "Civil Enforcement Ltd",
       "id": "civilenforcementltd-822ef4",
       "locationSet": {"include": ["gb"]},
@@ -175,6 +191,35 @@
         "operator": "Indigo",
         "operator:wikidata": "Q3559970",
         "operator:wikipedia": "fr:Indigo (entreprise)"
+      }
+    },
+    {
+      "displayName": "İSPARK",
+      "id": "ispark-2ec6a1",
+      "locationSet": {"include": ["tr"]},
+      "tags": {
+        "amenity": "parking",
+        "brand": "İSPARK",
+        "brand:wikidata": "Q97215078",
+        "brand:wikipedia": "tr:İSPARK",
+        "fee": "yes",
+        "name": "İSPARK",
+        "operator": "İSPARK",
+        "operator:wikidata": "Q97215078",
+        "operator:wikipedia": "tr:İSPARK"
+      }
+    },
+    {
+      "displayName": "Lyon Parc Auto",
+      "id": "lyonparcauto-bebcb4",
+      "locationSet": {"include": ["fr"]},
+      "matchNames": ["lpa"],
+      "tags": {
+        "amenity": "parking",
+        "operator": "Lyon Parc Auto",
+        "operator:type": "public",
+        "operator:wikidata": "Q21427571",
+        "operator:wikipedia": "fr:Lyon Parc Auto"
       }
     },
     {

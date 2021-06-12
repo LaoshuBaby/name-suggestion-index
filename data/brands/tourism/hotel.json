@@ -21,6 +21,7 @@
       "displayName": "7天酒店",
       "id": "7daysinn-af4cd2",
       "locationSet": {"include": ["cn"]},
+      "matchNames": ["7天快捷酒店"],
       "tags": {
         "brand": "7天酒店",
         "brand:en": "7 Days Inn",
@@ -1662,6 +1663,7 @@
       "displayName": "如家酒店",
       "id": "homeinn-af4cd2",
       "locationSet": {"include": ["cn"]},
+      "matchNames": ["如家", "如家快捷酒店"],
       "tags": {
         "brand": "如家酒店",
         "brand:en": "Home Inn",
@@ -1669,6 +1671,18 @@
         "brand:wikipedia": "en:Home Inn",
         "name": "如家酒店",
         "name:en": "Home Inn",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "displayName": "尚客优快捷酒店",
+      "id": "thankyouhotel-af4cd2",
+      "locationSet": {"include": ["cn"]},
+      "tags": {
+        "brand": "尚客优快捷酒店",
+        "brand:en": "thankyou hotel",
+        "name": "尚客优快捷酒店",
+        "name:en": "thankyou hotel",
         "tourism": "hotel"
       }
     },
@@ -1691,11 +1705,30 @@
     },
     {
       "displayName": "汉庭酒店",
-      "id": "69043e-779ccb",
-      "locationSet": {"include": ["001"]},
+      "id": "hantinghotel-af4cd2",
+      "locationSet": {"include": ["cn"]},
+      "matchNames": ["汉庭", "汉庭快捷酒店"],
       "tags": {
         "brand": "汉庭酒店",
+        "brand:wikipedia": "zh:华住酒店集团",
         "name": "汉庭酒店",
+        "name:en": "Hanting Hotel",
+        "name:zh": "汉庭酒店",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "displayName": "速8酒店",
+      "id": "super8-af4cd2",
+      "locationSet": {"include": ["cn"]},
+      "matchNames": ["速8", "速8快捷酒店"],
+      "tags": {
+        "brand": "速8酒店",
+        "brand:en": "Super 8",
+        "brand:wikidata": "Q5364003",
+        "brand:wikipedia": "zh:速8酒店",
+        "name": "速8酒店",
+        "name:en": "Super_8",
         "tourism": "hotel"
       }
     }

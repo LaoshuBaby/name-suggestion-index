@@ -25,7 +25,7 @@
   "items": [
     {
       "displayName": "“O’zbеkiston pochtasi” AJ",
-      "id": "84c74e-9811e4",
+      "id": "02283a-9811e4",
       "locationSet": {"include": ["uz"]},
       "tags": {
         "amenity": "post_office",
@@ -82,11 +82,13 @@
     },
     {
       "displayName": "Aras Kargo",
-      "id": "araskargo-91a3cc",
-      "locationSet": {"include": ["001"]},
+      "id": "araskargo-56f07f",
+      "locationSet": {"include": ["tr"]},
       "tags": {
         "amenity": "post_office",
-        "operator": "Aras Kargo"
+        "operator": "Aras Kargo",
+        "operator:wikidata": "Q6094691",
+        "operator:wikipedia": "tr:Aras Kargo"
       }
     },
     {
@@ -147,20 +149,12 @@
         "include": ["ca"],
         "exclude": ["quebec.geojson"]
       },
+      "matchNames": ["canada post/ poste canada"],
       "tags": {
         "amenity": "post_office",
         "operator": "Canada Post",
         "operator:wikidata": "Q1032001",
         "operator:wikipedia": "en:Canada Post"
-      }
-    },
-    {
-      "displayName": "Canada Post/ Poste Canada",
-      "id": "canadapostpostecanada-91a3cc",
-      "locationSet": {"include": ["001"]},
-      "tags": {
-        "amenity": "post_office",
-        "operator": "Canada Post/ Poste Canada"
       }
     },
     {
@@ -324,7 +318,8 @@
         "deutsche post ag",
         "deutsche post dhl",
         "deutsche post filiale",
-        "deutsche postbank ag"
+        "deutsche postbank ag",
+        "postbank"
       ],
       "tags": {
         "amenity": "post_office",
@@ -737,12 +732,25 @@
       }
     },
     {
+      "displayName": "Meest",
+      "id": "meest-970b0c",
+      "locationSet": {"include": ["ua"]},
+      "tags": {
+        "amenity": "post_office",
+        "operator": "Meest",
+        "operator:en": "Meest",
+        "operator:uk": "Міст"
+      }
+    },
+    {
       "displayName": "Meest Express",
       "id": "meestexpress-970b0c",
       "locationSet": {"include": ["ua"]},
       "tags": {
         "amenity": "post_office",
         "operator": "Meest Express",
+        "operator:en": "Meest Express",
+        "operator:uk": "Міст Експрес",
         "operator:wikidata": "Q25432124",
         "operator:wikipedia": "uk:Міст Експрес"
       }
@@ -1002,6 +1010,17 @@
       }
     },
     {
+      "displayName": "postcon",
+      "id": "postcon-8c0db3",
+      "locationSet": {"include": ["de"]},
+      "tags": {
+        "amenity": "post_office",
+        "operator": "postcon",
+        "operator:wikidata": "Q2384619",
+        "operator:wikipedia": "de:Postcon"
+      }
+    },
+    {
       "displayName": "Poste Italiane",
       "id": "posteitaliane-b5464b",
       "locationSet": {"include": ["it"]},
@@ -1030,7 +1049,10 @@
       "locationSet": {
         "include": ["quebec.geojson"]
       },
-      "matchNames": ["poste canada"],
+      "matchNames": [
+        "canada post/ poste canada",
+        "poste canada"
+      ],
       "tags": {
         "amenity": "post_office",
         "operator": "Postes Canada",
@@ -1187,6 +1209,17 @@
         "operator": "DPD",
         "operator:wikidata": "Q541030",
         "operator:wikipedia": "en:DPDgroup"
+      }
+    },
+    {
+      "displayName": "Sürat Kargo",
+      "id": "suratkargo-56f07f",
+      "locationSet": {"include": ["tr"]},
+      "tags": {
+        "amenity": "post_office",
+        "operator": "Sürat Kargo",
+        "operator:wikidata": "Q6051265",
+        "operator:wikipedia": "tr:Sürat Kargo"
       }
     },
     {
@@ -1473,10 +1506,8 @@
     },
     {
       "displayName": "Почта Крыма",
-      "id": "postofcrimea-beb663",
-      "locationSet": {
-        "include": ["crimea.geojson"]
-      },
+      "id": "postofcrimea-98f61a",
+      "locationSet": {"include": ["crimea"]},
       "tags": {
         "amenity": "post_office",
         "operator": "Почта Крыма",
@@ -1521,6 +1552,15 @@
         "operator": "СДЭК",
         "operator:wikidata": "Q28665980",
         "operator:wikipedia": "ru:СДЭК"
+      }
+    },
+    {
+      "displayName": "УК \"СДЭК\"",
+      "id": "386d0e-91a3cc",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "amenity": "post_office",
+        "operator": "УК \"СДЭК\""
       }
     },
     {

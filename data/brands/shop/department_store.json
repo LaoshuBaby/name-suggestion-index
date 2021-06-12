@@ -167,6 +167,20 @@
       }
     },
     {
+      "displayName": "Billion",
+      "id": "billion-4d0884",
+      "locationSet": {"include": ["my"]},
+      "tags": {
+        "brand": "Billion",
+        "brand:wikidata": "Q106989381",
+        "brand:wikipedia": "ms:Pasar Raya Billion",
+        "brand:zh": "万顺",
+        "name": "Billion",
+        "name:zh": "万顺",
+        "shop": "department_store"
+      }
+    },
+    {
       "displayName": "Bloomingdale's",
       "id": "bloomingdales-592fe0",
       "locationSet": {"include": ["us"]},
@@ -246,6 +260,7 @@
       "tags": {
         "brand": "Central Department Store",
         "brand:cn": "尚泰",
+        "brand:en": "Central Department Store",
         "brand:th": "สรรพสินค้าเซ็นทรัล",
         "brand:wikidata": "Q5060703",
         "brand:wikipedia": "en:Central Department Store",
@@ -400,6 +415,7 @@
       "locationSet": {"include": ["co"]},
       "tags": {
         "brand": "Éxito",
+        "brand:wikidata": "Q106463667",
         "name": "Éxito",
         "shop": "department_store"
       }
@@ -664,6 +680,18 @@
       }
     },
     {
+      "displayName": "Leader",
+      "id": "leader-7a47e3",
+      "locationSet": {"include": ["br"]},
+      "tags": {
+        "brand": "Leader",
+        "brand:wikidata": "Q10316732",
+        "brand:wikipedia": "pt:Leader",
+        "name": "Leader",
+        "shop": "department_store"
+      }
+    },
+    {
       "displayName": "Liverpool",
       "id": "liverpool-4c18c3",
       "locationSet": {"include": ["mx"]},
@@ -885,6 +913,23 @@
       }
     },
     {
+      "displayName": "Pantai Timor",
+      "id": "pantaitimor-4d0884",
+      "locationSet": {"include": ["my"]},
+      "tags": {
+        "alt_name": "Billion",
+        "brand": "Pantai Timor",
+        "brand:ms-Arab": "ڤنتاي تيمور",
+        "brand:wikidata": "Q106989381",
+        "brand:wikipedia": "ms:Pasar Raya Billion",
+        "brand:zh": "东海岸",
+        "name": "Pantai Timor",
+        "name:ms-Arab": "ڤنتاي تيمور",
+        "name:zh": "东海岸",
+        "shop": "department_store"
+      }
+    },
+    {
       "displayName": "París",
       "id": "paris-f81fcb",
       "locationSet": {"include": ["cl", "pe"]},
@@ -944,6 +989,24 @@
         "brand:wikidata": "Q3433040",
         "brand:wikipedia": "en:Ripley S.A.",
         "name": "Ripley",
+        "shop": "department_store"
+      }
+    },
+    {
+      "displayName": "Robinson (Thailand)",
+      "id": "robinsondepartmentstore-bf6532",
+      "locationSet": {"include": ["th"]},
+      "tags": {
+        "brand": "Robinson Department Store",
+        "brand:th": "ห้างสรรพสินค้าโรบินสัน",
+        "brand:wikidata": "Q6642534",
+        "brand:wikipedia": "en:Robinson Department Store",
+        "operator": "Central Department Store",
+        "operator:cn": "尚泰",
+        "operator:en": "Central Department Store",
+        "operator:th": "สรรพสินค้าเซ็นทรัล",
+        "operator:wikidata": "Q5060703",
+        "operator:wikipedia": "en:Central Department Store",
         "shop": "department_store"
       }
     },
@@ -1139,20 +1202,6 @@
         "brand:wikidata": "Q483551",
         "brand:wikipedia": "en:Walmart",
         "name": "Walmart",
-        "shop": "department_store"
-      }
-    },
-    {
-      "displayName": "Westfield",
-      "id": "westfield-c19ded",
-      "locationSet": {
-        "include": ["eu", "uk", "us"]
-      },
-      "tags": {
-        "brand": "Westfield",
-        "brand:wikidata": "Q608518",
-        "brand:wikipedia": "en:Unibail-Rodamco-Westfield",
-        "name": "Westfield",
         "shop": "department_store"
       }
     },

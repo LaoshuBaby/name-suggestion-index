@@ -6,7 +6,10 @@
         "^(ice cream|fagyizó)$",
         "^мороженое$"
       ],
-      "named": ["^(gelateria|venezia)$"]
+      "named": [
+        "^(gelateria|venezia)$",
+        "eiscafé venezia"
+      ]
     }
   },
   "items": [
@@ -198,16 +201,6 @@
         "brand:wikipedia": "es:D'Onofrio",
         "cuisine": "ice_cream",
         "name": "D'Onofrio"
-      }
-    },
-    {
-      "displayName": "Eiscafé Venezia",
-      "id": "eiscafevenezia-87d971",
-      "locationSet": {"include": ["001"]},
-      "tags": {
-        "amenity": "ice_cream",
-        "brand": "Eiscafé Venezia",
-        "name": "Eiscafé Venezia"
       }
     },
     {
@@ -562,6 +555,18 @@
       }
     },
     {
+      "displayName": "Veganista",
+      "id": "veganista-131346",
+      "locationSet": {"include": ["at"]},
+      "tags": {
+        "amenity": "ice_cream",
+        "brand": "Veganista",
+        "brand:wikidata": "Q106351886",
+        "diet:vegan": "only",
+        "name": "Veganista"
+      }
+    },
+    {
       "displayName": "Yogen Früz",
       "id": "yogenfruz-87d971",
       "locationSet": {"include": ["001"]},
@@ -643,6 +648,22 @@
         "name": "サーティワンアイスクリーム",
         "name:en": "Baskin-Robbins",
         "name:ja": "サーティワンアイスクリーム"
+      }
+    },
+    {
+      "displayName": "鮮芋仙",
+      "id": "meetfresh-42f939",
+      "locationSet": {"include": ["cn", "tw"]},
+      "tags": {
+        "amenity": "ice_cream",
+        "brand": "鮮芋仙",
+        "brand:en": "Meet Fresh",
+        "brand:wikidata": "Q11172707",
+        "brand:wikipedia": "zh:鮮芋仙",
+        "cuisine": "taiwanese",
+        "name": "鮮芋仙",
+        "name:en": "Meet Fresh",
+        "name:zh": "鮮芋仙"
       }
     }
   ]

@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "version": "5.0.20210317",
-    "generated": "2021-03-17T17:22:17.555Z",
+    "version": "5.0.20210612",
+    "generated": "2021-06-12T15:01:06.439Z",
     "url": "https://raw.githubusercontent.com/osmlab/name-suggestion-index/main/dist/matchGroups.json",
-    "hash": "628c8c03575e3f70e0f0aee1d24e47b2"
+    "hash": "a042117d5144b75f7dfb138317386e98"
   },
   "matchGroups": {
     "adult_gaming_centre": [
@@ -50,6 +50,7 @@
       "shop/chemist",
       "shop/convenience",
       "shop/cosmetics",
+      "shop/grocery",
       "shop/newsagent"
     ],
     "coworking": [

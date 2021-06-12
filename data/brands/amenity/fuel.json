@@ -35,8 +35,11 @@
     },
     {
       "displayName": "7-Eleven",
-      "id": "7eleven-b3d110",
-      "locationSet": {"include": ["001"]},
+      "id": "7eleven-16b3c2",
+      "locationSet": {
+        "include": ["001"],
+        "exclude": ["pl"]
+      },
       "matchNames": ["7-11", "seven eleven"],
       "tags": {
         "amenity": "fuel",
@@ -48,8 +51,11 @@
     },
     {
       "displayName": "76",
-      "id": "76-b3d110",
-      "locationSet": {"include": ["001"]},
+      "id": "76-16b3c2",
+      "locationSet": {
+        "include": ["001"],
+        "exclude": ["pl"]
+      },
       "tags": {
         "amenity": "fuel",
         "brand": "76",
@@ -96,8 +102,11 @@
     },
     {
       "displayName": "Afriquia",
-      "id": "afriquia-b3d110",
-      "locationSet": {"include": ["001"]},
+      "id": "afriquia-16b3c2",
+      "locationSet": {
+        "include": ["001"],
+        "exclude": ["pl"]
+      },
       "tags": {
         "amenity": "fuel",
         "brand": "Afriquia",
@@ -108,8 +117,11 @@
     },
     {
       "displayName": "Afriquia أفريقيا",
-      "id": "3331ce-b3d110",
-      "locationSet": {"include": ["001"]},
+      "id": "3331ce-16b3c2",
+      "locationSet": {
+        "include": ["001"],
+        "exclude": ["pl"]
+      },
       "tags": {
         "amenity": "fuel",
         "brand": "Afriquia أفريقيا",
@@ -294,8 +306,11 @@
     },
     {
       "displayName": "Api-Ip",
-      "id": "apiip-b3d110",
-      "locationSet": {"include": ["001"]},
+      "id": "apiip-16b3c2",
+      "locationSet": {
+        "include": ["001"],
+        "exclude": ["pl"]
+      },
       "tags": {
         "amenity": "fuel",
         "brand": "Api-Ip",
@@ -538,8 +553,11 @@
     },
     {
       "displayName": "Bandera Blanca",
-      "id": "banderablanca-b3d110",
-      "locationSet": {"include": ["001"]},
+      "id": "banderablanca-16b3c2",
+      "locationSet": {
+        "include": ["001"],
+        "exclude": ["pl"]
+      },
       "tags": {
         "amenity": "fuel",
         "brand": "Bandera Blanca",
@@ -548,8 +566,11 @@
     },
     {
       "displayName": "Bangchak",
-      "id": "bangchak-b3d110",
-      "locationSet": {"include": ["001"]},
+      "id": "bangchak-16b3c2",
+      "locationSet": {
+        "include": ["001"],
+        "exclude": ["pl"]
+      },
       "tags": {
         "amenity": "fuel",
         "brand": "Bangchak",
@@ -582,6 +603,17 @@
       }
     },
     {
+      "displayName": "Bennett's Petroleum",
+      "id": "bennettspetroleum-5e56e7",
+      "locationSet": {"include": ["au-tas"]},
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Bennett's Petroleum",
+        "brand:wikidata": "Q105846396",
+        "name": "Bennett's Petroleum"
+      }
+    },
+    {
       "displayName": "Benzina",
       "id": "benzina-45c895",
       "locationSet": {"include": ["cz"]},
@@ -605,8 +637,11 @@
     },
     {
       "displayName": "Beyfin",
-      "id": "beyfin-b3d110",
-      "locationSet": {"include": ["001"]},
+      "id": "beyfin-16b3c2",
+      "locationSet": {
+        "include": ["001"],
+        "exclude": ["pl"]
+      },
       "tags": {
         "amenity": "fuel",
         "brand": "Beyfin",
@@ -751,8 +786,11 @@
     },
     {
       "displayName": "Caltex",
-      "id": "caltex-b3d110",
-      "locationSet": {"include": ["001"]},
+      "id": "caltex-16b3c2",
+      "locationSet": {
+        "include": ["001"],
+        "exclude": ["pl"]
+      },
       "tags": {
         "amenity": "fuel",
         "brand": "Caltex",
@@ -911,8 +949,11 @@
     },
     {
       "displayName": "Chipo",
-      "id": "chipo-b3d110",
-      "locationSet": {"include": ["001"]},
+      "id": "chipo-16b3c2",
+      "locationSet": {
+        "include": ["001"],
+        "exclude": ["pl"]
+      },
       "tags": {
         "amenity": "fuel",
         "brand": "Chipo",
@@ -933,8 +974,11 @@
     },
     {
       "displayName": "Citgo",
-      "id": "citgo-b3d110",
-      "locationSet": {"include": ["001"]},
+      "id": "citgo-16b3c2",
+      "locationSet": {
+        "include": ["001"],
+        "exclude": ["pl"]
+      },
       "tags": {
         "amenity": "fuel",
         "brand": "Citgo",
@@ -1005,8 +1049,11 @@
     },
     {
       "displayName": "Coop Tankstelle",
-      "id": "cooptankstelle-b3d110",
-      "locationSet": {"include": ["001"]},
+      "id": "cooptankstelle-16b3c2",
+      "locationSet": {
+        "include": ["001"],
+        "exclude": ["pl"]
+      },
       "tags": {
         "amenity": "fuel",
         "brand": "Coop Tankstelle",
@@ -1050,8 +1097,11 @@
     },
     {
       "displayName": "Costantin",
-      "id": "costantin-b3d110",
-      "locationSet": {"include": ["001"]},
+      "id": "costantin-16b3c2",
+      "locationSet": {
+        "include": ["001"],
+        "exclude": ["pl"]
+      },
       "tags": {
         "amenity": "fuel",
         "brand": "Costantin",
@@ -1153,8 +1203,11 @@
     },
     {
       "displayName": "DATS 24",
-      "id": "dats24-b3d110",
-      "locationSet": {"include": ["001"]},
+      "id": "dats24-16b3c2",
+      "locationSet": {
+        "include": ["001"],
+        "exclude": ["pl"]
+      },
       "tags": {
         "amenity": "fuel",
         "brand": "DATS 24",
@@ -1312,8 +1365,11 @@
     },
     {
       "displayName": "Emarat",
-      "id": "emarat-b3d110",
-      "locationSet": {"include": ["001"]},
+      "id": "emarat-16b3c2",
+      "locationSet": {
+        "include": ["001"],
+        "exclude": ["pl"]
+      },
       "tags": {
         "amenity": "fuel",
         "brand": "Emarat",
@@ -1322,8 +1378,11 @@
     },
     {
       "displayName": "Energas",
-      "id": "energas-b3d110",
-      "locationSet": {"include": ["001"]},
+      "id": "energas-16b3c2",
+      "locationSet": {
+        "include": ["001"],
+        "exclude": ["pl"]
+      },
       "tags": {
         "amenity": "fuel",
         "brand": "Energas",
@@ -1332,8 +1391,11 @@
     },
     {
       "displayName": "Enerpetroli",
-      "id": "enerpetroli-b3d110",
-      "locationSet": {"include": ["001"]},
+      "id": "enerpetroli-16b3c2",
+      "locationSet": {
+        "include": ["001"],
+        "exclude": ["pl"]
+      },
       "tags": {
         "amenity": "fuel",
         "brand": "Enerpetroli",
@@ -1342,8 +1404,11 @@
     },
     {
       "displayName": "Engen",
-      "id": "engen-b3d110",
-      "locationSet": {"include": ["001"]},
+      "id": "engen-16b3c2",
+      "locationSet": {
+        "include": ["001"],
+        "exclude": ["pl"]
+      },
       "tags": {
         "amenity": "fuel",
         "brand": "Engen",
@@ -1380,8 +1445,11 @@
     },
     {
       "displayName": "Essar",
-      "id": "essar-b3d110",
-      "locationSet": {"include": ["001"]},
+      "id": "essar-16b3c2",
+      "locationSet": {
+        "include": ["001"],
+        "exclude": ["pl"]
+      },
       "tags": {
         "amenity": "fuel",
         "brand": "Essar",
@@ -1390,8 +1458,11 @@
     },
     {
       "displayName": "Esso",
-      "id": "esso-b3d110",
-      "locationSet": {"include": ["001"]},
+      "id": "esso-16b3c2",
+      "locationSet": {
+        "include": ["001"],
+        "exclude": ["pl"]
+      },
       "matchNames": ["station esso"],
       "tags": {
         "amenity": "fuel",
@@ -1403,8 +1474,11 @@
     },
     {
       "displayName": "Esso Express",
-      "id": "essoexpress-b3d110",
-      "locationSet": {"include": ["001"]},
+      "id": "essoexpress-16b3c2",
+      "locationSet": {
+        "include": ["001"],
+        "exclude": ["pl"]
+      },
       "tags": {
         "amenity": "fuel",
         "brand": "Esso Express",
@@ -1415,8 +1489,11 @@
     },
     {
       "displayName": "EuroOil",
-      "id": "eurooil-b3d110",
-      "locationSet": {"include": ["001"]},
+      "id": "eurooil-16b3c2",
+      "locationSet": {
+        "include": ["001"],
+        "exclude": ["pl"]
+      },
       "tags": {
         "amenity": "fuel",
         "brand": "EuroOil",
@@ -1425,8 +1502,11 @@
     },
     {
       "displayName": "Europam",
-      "id": "europam-b3d110",
-      "locationSet": {"include": ["001"]},
+      "id": "europam-16b3c2",
+      "locationSet": {
+        "include": ["001"],
+        "exclude": ["pl"]
+      },
       "tags": {
         "amenity": "fuel",
         "brand": "Europam",
@@ -1533,8 +1613,11 @@
     },
     {
       "displayName": "Fred Meyer",
-      "id": "fredmeyer-b3d110",
-      "locationSet": {"include": ["001"]},
+      "id": "fredmeyer-16b3c2",
+      "locationSet": {
+        "include": ["001"],
+        "exclude": ["pl"]
+      },
       "tags": {
         "amenity": "fuel",
         "brand": "Fred Meyer",
@@ -1557,8 +1640,11 @@
     },
     {
       "displayName": "G500",
-      "id": "g500-b3d110",
-      "locationSet": {"include": ["001"]},
+      "id": "g500-16b3c2",
+      "locationSet": {
+        "include": ["001"],
+        "exclude": ["pl"]
+      },
       "tags": {
         "amenity": "fuel",
         "brand": "G500",
@@ -1567,8 +1653,11 @@
     },
     {
       "displayName": "Gabriëls",
-      "id": "gabriels-b3d110",
-      "locationSet": {"include": ["001"]},
+      "id": "gabriels-16b3c2",
+      "locationSet": {
+        "include": ["001"],
+        "exclude": ["pl"]
+      },
       "tags": {
         "amenity": "fuel",
         "brand": "Gabriëls",
@@ -1577,8 +1666,11 @@
     },
     {
       "displayName": "Galana",
-      "id": "galana-b3d110",
-      "locationSet": {"include": ["001"]},
+      "id": "galana-16b3c2",
+      "locationSet": {
+        "include": ["001"],
+        "exclude": ["pl"]
+      },
       "tags": {
         "amenity": "fuel",
         "brand": "Galana",
@@ -1587,8 +1679,11 @@
     },
     {
       "displayName": "GALP",
-      "id": "galp-b3d110",
-      "locationSet": {"include": ["001"]},
+      "id": "galp-16b3c2",
+      "locationSet": {
+        "include": ["001"],
+        "exclude": ["pl"]
+      },
       "tags": {
         "amenity": "fuel",
         "brand": "GALP",
@@ -1608,6 +1703,16 @@
       }
     },
     {
+      "displayName": "Gasenergy",
+      "id": "gasenergy-6daebb",
+      "locationSet": {"include": ["kz"]},
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Gasenergy",
+        "name": "Gasenergy"
+      }
+    },
+    {
       "displayName": "Gazel",
       "id": "gazel-419915",
       "locationSet": {
@@ -1622,8 +1727,11 @@
     },
     {
       "displayName": "Gazprom",
-      "id": "gazprom-b3d110",
-      "locationSet": {"include": ["001"]},
+      "id": "gazprom-16b3c2",
+      "locationSet": {
+        "include": ["001"],
+        "exclude": ["pl"]
+      },
       "tags": {
         "amenity": "fuel",
         "brand": "Gazprom",
@@ -1634,8 +1742,11 @@
     },
     {
       "displayName": "Genol",
-      "id": "genol-b3d110",
-      "locationSet": {"include": ["001"]},
+      "id": "genol-16b3c2",
+      "locationSet": {
+        "include": ["001"],
+        "exclude": ["pl"]
+      },
       "tags": {
         "amenity": "fuel",
         "brand": "Genol",
@@ -1672,8 +1783,11 @@
     },
     {
       "displayName": "Giap",
-      "id": "giap-b3d110",
-      "locationSet": {"include": ["001"]},
+      "id": "giap-16b3c2",
+      "locationSet": {
+        "include": ["001"],
+        "exclude": ["pl"]
+      },
       "tags": {
         "amenity": "fuel",
         "brand": "Giap",
@@ -1682,8 +1796,11 @@
     },
     {
       "displayName": "Global",
-      "id": "global-b3d110",
-      "locationSet": {"include": ["001"]},
+      "id": "global-16b3c2",
+      "locationSet": {
+        "include": ["001"],
+        "exclude": ["pl"]
+      },
       "tags": {
         "amenity": "fuel",
         "brand": "Global",
@@ -1715,8 +1832,11 @@
     },
     {
       "displayName": "Grand Trunk Road گرینڈ ٹرنک روڈ",
-      "id": "c85040-b3d110",
-      "locationSet": {"include": ["001"]},
+      "id": "c85040-16b3c2",
+      "locationSet": {
+        "include": ["001"],
+        "exclude": ["pl"]
+      },
       "tags": {
         "amenity": "fuel",
         "brand": "Grand Trunk Road گرینڈ ٹرنک روڈ",
@@ -1748,8 +1868,11 @@
     },
     {
       "displayName": "Gulf",
-      "id": "gulf-b3d110",
-      "locationSet": {"include": ["001"]},
+      "id": "gulf-16b3c2",
+      "locationSet": {
+        "include": ["001"],
+        "exclude": ["pl"]
+      },
       "tags": {
         "amenity": "fuel",
         "brand": "Gulf",
@@ -1842,6 +1965,18 @@
       }
     },
     {
+      "displayName": "High's",
+      "id": "highs-c5cf43",
+      "locationSet": {"include": ["us"]},
+      "tags": {
+        "amenity": "fuel",
+        "brand": "High's",
+        "brand:wikidata": "Q5754383",
+        "brand:wikipedia": "en:High's Dairy Store",
+        "name": "High's"
+      }
+    },
+    {
       "displayName": "Hofer",
       "id": "hofer-3baa0f",
       "locationSet": {"include": ["at", "si"]},
@@ -1867,8 +2002,11 @@
     },
     {
       "displayName": "Hoyer",
-      "id": "hoyer-b3d110",
-      "locationSet": {"include": ["001"]},
+      "id": "hoyer-16b3c2",
+      "locationSet": {
+        "include": ["001"],
+        "exclude": ["pl"]
+      },
       "tags": {
         "amenity": "fuel",
         "brand": "Hoyer",
@@ -1928,8 +2066,11 @@
     },
     {
       "displayName": "IDEMITSU",
-      "id": "idemitsu-b3d110",
-      "locationSet": {"include": ["001"]},
+      "id": "idemitsu-16b3c2",
+      "locationSet": {
+        "include": ["001"],
+        "exclude": ["pl"]
+      },
       "tags": {
         "amenity": "fuel",
         "brand": "IDEMITSU",
@@ -1949,8 +2090,11 @@
     },
     {
       "displayName": "INA",
-      "id": "ina-b3d110",
-      "locationSet": {"include": ["001"]},
+      "id": "ina-16b3c2",
+      "locationSet": {
+        "include": ["001"],
+        "exclude": ["pl"]
+      },
       "tags": {
         "amenity": "fuel",
         "brand": "INA",
@@ -1995,8 +2139,11 @@
     },
     {
       "displayName": "Intermarché",
-      "id": "intermarche-b3d110",
-      "locationSet": {"include": ["001"]},
+      "id": "intermarche-16b3c2",
+      "locationSet": {
+        "include": ["001"],
+        "exclude": ["pl"]
+      },
       "matchNames": ["intermarché super"],
       "tags": {
         "amenity": "fuel",
@@ -2008,8 +2155,11 @@
     },
     {
       "displayName": "IP",
-      "id": "ip-b3d110",
-      "locationSet": {"include": ["001"]},
+      "id": "ip-16b3c2",
+      "locationSet": {
+        "include": ["001"],
+        "exclude": ["pl"]
+      },
       "tags": {
         "amenity": "fuel",
         "brand": "IP",
@@ -2068,8 +2218,11 @@
     },
     {
       "displayName": "Jet",
-      "id": "jet-b3d110",
-      "locationSet": {"include": ["001"]},
+      "id": "jet-16b3c2",
+      "locationSet": {
+        "include": ["001"],
+        "exclude": ["pl"]
+      },
       "tags": {
         "amenity": "fuel",
         "brand": "Jet",
@@ -2090,9 +2243,22 @@
       }
     },
     {
+      "displayName": "Jurki",
+      "id": "jurki-11d3b6",
+      "locationSet": {"include": ["sk"]},
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Jurki",
+        "name": "Jurki"
+      }
+    },
+    {
       "displayName": "Kadoil",
-      "id": "kadoil-b3d110",
-      "locationSet": {"include": ["001"]},
+      "id": "kadoil-16b3c2",
+      "locationSet": {
+        "include": ["001"],
+        "exclude": ["pl"]
+      },
       "tags": {
         "amenity": "fuel",
         "brand": "Kadoil",
@@ -2113,8 +2279,11 @@
     },
     {
       "displayName": "Kastrati",
-      "id": "kastrati-b3d110",
-      "locationSet": {"include": ["001"]},
+      "id": "kastrati-16b3c2",
+      "locationSet": {
+        "include": ["001"],
+        "exclude": ["pl"]
+      },
       "tags": {
         "amenity": "fuel",
         "brand": "Kastrati",
@@ -2123,8 +2292,11 @@
     },
     {
       "displayName": "Keropetrol",
-      "id": "keropetrol-b3d110",
-      "locationSet": {"include": ["001"]},
+      "id": "keropetrol-16b3c2",
+      "locationSet": {
+        "include": ["001"],
+        "exclude": ["pl"]
+      },
       "tags": {
         "amenity": "fuel",
         "brand": "Keropetrol",
@@ -2182,8 +2354,11 @@
     },
     {
       "displayName": "Kroger",
-      "id": "kroger-b3d110",
-      "locationSet": {"include": ["001"]},
+      "id": "kroger-16b3c2",
+      "locationSet": {
+        "include": ["001"],
+        "exclude": ["pl"]
+      },
       "matchNames": [
         "kroger fuel",
         "kroger fuel center",
@@ -2245,8 +2420,8 @@
     },
     {
       "displayName": "Liberty",
-      "id": "liberty-734d12",
-      "locationSet": {"include": ["au", "us"]},
+      "id": "liberty-c5cf43",
+      "locationSet": {"include": ["us"]},
       "tags": {
         "amenity": "fuel",
         "brand": "Liberty",
@@ -2268,8 +2443,11 @@
     },
     {
       "displayName": "Loro",
-      "id": "loro-b3d110",
-      "locationSet": {"include": ["001"]},
+      "id": "loro-16b3c2",
+      "locationSet": {
+        "include": ["001"],
+        "exclude": ["pl"]
+      },
       "tags": {
         "amenity": "fuel",
         "brand": "Loro",
@@ -2359,8 +2537,11 @@
     },
     {
       "displayName": "Marathon",
-      "id": "marathon-b3d110",
-      "locationSet": {"include": ["001"]},
+      "id": "marathon-16b3c2",
+      "locationSet": {
+        "include": ["001"],
+        "exclude": ["pl"]
+      },
       "matchNames": ["marathon gas"],
       "tags": {
         "amenity": "fuel",
@@ -2372,8 +2553,11 @@
     },
     {
       "displayName": "Markant",
-      "id": "markant-b3d110",
-      "locationSet": {"include": ["001"]},
+      "id": "markant-16b3c2",
+      "locationSet": {
+        "include": ["001"],
+        "exclude": ["pl"]
+      },
       "tags": {
         "amenity": "fuel",
         "brand": "Markant",
@@ -2544,8 +2728,10 @@
     },
     {
       "displayName": "MRS",
-      "id": "mrs-7ae8e2",
-      "locationSet": {"include": ["ng"]},
+      "id": "mrs-0edd09",
+      "locationSet": {
+        "include": ["bj", "cm", "gh", "ng", "tg"]
+      },
       "tags": {
         "amenity": "fuel",
         "brand": "MRS",
@@ -2565,6 +2751,16 @@
         "brand:wikidata": "Q16998281",
         "brand:wikipedia": "en:Murco Petroleum",
         "name": "Murco"
+      }
+    },
+    {
+      "displayName": "Murphy Express",
+      "id": "murphyexpress-c5cf43",
+      "locationSet": {"include": ["us"]},
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Murphy Express",
+        "name": "Murphy Express"
       }
     },
     {
@@ -2591,8 +2787,11 @@
     },
     {
       "displayName": "NAFTAL",
-      "id": "naftal-b3d110",
-      "locationSet": {"include": ["001"]},
+      "id": "naftal-16b3c2",
+      "locationSet": {
+        "include": ["001"],
+        "exclude": ["pl"]
+      },
       "tags": {
         "amenity": "fuel",
         "brand": "NAFTAL",
@@ -2613,8 +2812,11 @@
     },
     {
       "displayName": "NIS",
-      "id": "nis-b3d110",
-      "locationSet": {"include": ["001"]},
+      "id": "nis-16b3c2",
+      "locationSet": {
+        "include": ["001"],
+        "exclude": ["pl"]
+      },
       "tags": {
         "amenity": "fuel",
         "brand": "NIS",
@@ -2635,8 +2837,11 @@
     },
     {
       "displayName": "Octa+",
-      "id": "octa-b3d110",
-      "locationSet": {"include": ["001"]},
+      "id": "octa-16b3c2",
+      "locationSet": {
+        "include": ["001"],
+        "exclude": ["pl"]
+      },
       "tags": {
         "amenity": "fuel",
         "brand": "Octa+",
@@ -3142,8 +3347,11 @@
     },
     {
       "displayName": "PTT",
-      "id": "ptt-b3d110",
-      "locationSet": {"include": ["001"]},
+      "id": "ptt-16b3c2",
+      "locationSet": {
+        "include": ["001"],
+        "exclude": ["pl"]
+      },
       "tags": {
         "amenity": "fuel",
         "brand": "PTT",
@@ -3154,8 +3362,11 @@
     },
     {
       "displayName": "Puma",
-      "id": "puma-b3d110",
-      "locationSet": {"include": ["001"]},
+      "id": "puma-16b3c2",
+      "locationSet": {
+        "include": ["001"],
+        "exclude": ["pl"]
+      },
       "tags": {
         "amenity": "fuel",
         "brand": "Puma",
@@ -3268,8 +3479,11 @@
     },
     {
       "displayName": "QuikTrip",
-      "id": "quiktrip-b3d110",
-      "locationSet": {"include": ["001"]},
+      "id": "quiktrip-16b3c2",
+      "locationSet": {
+        "include": ["001"],
+        "exclude": ["pl"]
+      },
       "tags": {
         "amenity": "fuel",
         "brand": "QuikTrip",
@@ -3281,8 +3495,11 @@
     },
     {
       "displayName": "RaceTrac",
-      "id": "racetrac-b3d110",
-      "locationSet": {"include": ["001"]},
+      "id": "racetrac-16b3c2",
+      "locationSet": {
+        "include": ["001"],
+        "exclude": ["pl"]
+      },
       "tags": {
         "amenity": "fuel",
         "brand": "RaceTrac",
@@ -3336,8 +3553,11 @@
     },
     {
       "displayName": "Retitalia",
-      "id": "retitalia-b3d110",
-      "locationSet": {"include": ["001"]},
+      "id": "retitalia-16b3c2",
+      "locationSet": {
+        "include": ["001"],
+        "exclude": ["pl"]
+      },
       "tags": {
         "amenity": "fuel",
         "brand": "Retitalia",
@@ -3392,14 +3612,27 @@
     },
     {
       "displayName": "Rubis",
-      "id": "rubis-b3d110",
-      "locationSet": {"include": ["001"]},
+      "id": "rubis-16b3c2",
+      "locationSet": {
+        "include": ["001"],
+        "exclude": ["pl"]
+      },
       "tags": {
         "amenity": "fuel",
         "brand": "Rubis",
         "brand:wikidata": "Q3446514",
         "brand:wikipedia": "en:Rubis (company)",
         "name": "Rubis"
+      }
+    },
+    {
+      "displayName": "Ruedi Rüssel",
+      "id": "ruedirussel-27a80f",
+      "locationSet": {"include": ["ch"]},
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Ruedi Rüssel",
+        "name": "Ruedi Rüssel"
       }
     },
     {
@@ -3416,8 +3649,11 @@
     },
     {
       "displayName": "Safeway Fuel Station",
-      "id": "safewayfuelstation-b3d110",
-      "locationSet": {"include": ["001"]},
+      "id": "safewayfuelstation-16b3c2",
+      "locationSet": {
+        "include": ["001"],
+        "exclude": ["pl"]
+      },
       "tags": {
         "amenity": "fuel",
         "brand": "Safeway",
@@ -3440,8 +3676,11 @@
     },
     {
       "displayName": "Sam's Club",
-      "id": "samsclub-b3d110",
-      "locationSet": {"include": ["001"]},
+      "id": "samsclub-16b3c2",
+      "locationSet": {
+        "include": ["001"],
+        "exclude": ["pl"]
+      },
       "matchNames": [
         "sams club fuel center",
         "sams club gas"
@@ -3456,8 +3695,11 @@
     },
     {
       "displayName": "San Marco Petroli",
-      "id": "sanmarcopetroli-b3d110",
-      "locationSet": {"include": ["001"]},
+      "id": "sanmarcopetroli-16b3c2",
+      "locationSet": {
+        "include": ["001"],
+        "exclude": ["pl"]
+      },
       "tags": {
         "amenity": "fuel",
         "brand": "San Marco Petroli",
@@ -3614,8 +3856,11 @@
     },
     {
       "displayName": "Sol",
-      "id": "sol-b3d110",
-      "locationSet": {"include": ["001"]},
+      "id": "sol-16b3c2",
+      "locationSet": {
+        "include": ["001"],
+        "exclude": ["pl"]
+      },
       "tags": {
         "amenity": "fuel",
         "brand": "Sol",
@@ -3647,8 +3892,11 @@
     },
     {
       "displayName": "SP",
-      "id": "sp-b3d110",
-      "locationSet": {"include": ["001"]},
+      "id": "sp-16b3c2",
+      "locationSet": {
+        "include": ["001"],
+        "exclude": ["pl"]
+      },
       "tags": {
         "amenity": "fuel",
         "brand": "SP",
@@ -3657,8 +3905,11 @@
     },
     {
       "displayName": "SPBU Pertamina",
-      "id": "spbupertamina-b3d110",
-      "locationSet": {"include": ["001"]},
+      "id": "spbupertamina-16b3c2",
+      "locationSet": {
+        "include": ["001"],
+        "exclude": ["pl"]
+      },
       "tags": {
         "amenity": "fuel",
         "brand": "SPBU Pertamina",
@@ -3714,8 +3965,11 @@
     },
     {
       "displayName": "Star Oil",
-      "id": "staroil-b3d110",
-      "locationSet": {"include": ["001"]},
+      "id": "staroil-16b3c2",
+      "locationSet": {
+        "include": ["001"],
+        "exclude": ["pl"]
+      },
       "tags": {
         "amenity": "fuel",
         "brand": "Star Oil",
@@ -3724,8 +3978,11 @@
     },
     {
       "displayName": "Station Service E. Leclerc",
-      "id": "stationserviceeleclerc-b3d110",
-      "locationSet": {"include": ["001"]},
+      "id": "stationserviceeleclerc-16b3c2",
+      "locationSet": {
+        "include": ["001"],
+        "exclude": ["pl"]
+      },
       "tags": {
         "amenity": "fuel",
         "brand": "E.Leclerc",
@@ -3779,8 +4036,11 @@
     },
     {
       "displayName": "Sunoco",
-      "id": "sunoco-b3d110",
-      "locationSet": {"include": ["001"]},
+      "id": "sunoco-16b3c2",
+      "locationSet": {
+        "include": ["001"],
+        "exclude": ["pl"]
+      },
       "tags": {
         "amenity": "fuel",
         "brand": "Sunoco",
@@ -3878,6 +4138,16 @@
         "brand:wikidata": "Q10690640",
         "brand:wikipedia": "sv:Tanka (bensinstationskedja)",
         "name": "Tanka"
+      }
+    },
+    {
+      "displayName": "tankpool24",
+      "id": "tankpool24-0c8e6e",
+      "locationSet": {"include": ["150"]},
+      "tags": {
+        "amenity": "fuel",
+        "brand": "tankpool24",
+        "name": "tankpool24"
       }
     },
     {
@@ -4019,8 +4289,11 @@
     },
     {
       "displayName": "Toka",
-      "id": "toka-b3d110",
-      "locationSet": {"include": ["001"]},
+      "id": "toka-16b3c2",
+      "locationSet": {
+        "include": ["001"],
+        "exclude": ["pl"]
+      },
       "tags": {
         "amenity": "fuel",
         "brand": "Toka",
@@ -4062,7 +4335,7 @@
         "amenity": "fuel",
         "brand": "Total",
         "brand:wikidata": "Q154037",
-        "brand:wikipedia": "fr:Total (entreprise)",
+        "brand:wikipedia": "fr:TotalEnergies",
         "name": "Total"
       }
     },
@@ -4074,7 +4347,7 @@
         "amenity": "fuel",
         "brand": "Total Access",
         "brand:wikidata": "Q154037",
-        "brand:wikipedia": "fr:Total (entreprise)",
+        "brand:wikipedia": "fr:TotalEnergies",
         "name": "Total Access"
       }
     },
@@ -4117,6 +4390,18 @@
       }
     },
     {
+      "displayName": "True Zero",
+      "id": "truezero-c5cf43",
+      "locationSet": {"include": ["us"]},
+      "tags": {
+        "amenity": "fuel",
+        "brand": "True Zero",
+        "brand:wikidata": "Q106320436",
+        "fuel:h70": "yes",
+        "name": "True Zero"
+      }
+    },
+    {
       "displayName": "Turkey Hill",
       "id": "turkeyhill-c5cf43",
       "locationSet": {"include": ["us"]},
@@ -4142,8 +4427,11 @@
     },
     {
       "displayName": "U",
-      "id": "u-b3d110",
-      "locationSet": {"include": ["001"]},
+      "id": "u-16b3c2",
+      "locationSet": {
+        "include": ["001"],
+        "exclude": ["pl"]
+      },
       "tags": {
         "amenity": "fuel",
         "brand": "U",
@@ -4166,8 +4454,11 @@
     },
     {
       "displayName": "Ultramar",
-      "id": "ultramar-b3d110",
-      "locationSet": {"include": ["001"]},
+      "id": "ultramar-16b3c2",
+      "locationSet": {
+        "include": ["001"],
+        "exclude": ["pl"]
+      },
       "tags": {
         "amenity": "fuel",
         "brand": "Ultramar",
@@ -4223,8 +4514,11 @@
     },
     {
       "displayName": "UPG",
-      "id": "upg-b3d110",
-      "locationSet": {"include": ["001"]},
+      "id": "upg-16b3c2",
+      "locationSet": {
+        "include": ["001"],
+        "exclude": ["pl"]
+      },
       "tags": {
         "amenity": "fuel",
         "brand": "UPG",
@@ -4261,8 +4555,11 @@
     },
     {
       "displayName": "Valero",
-      "id": "valero-b3d110",
-      "locationSet": {"include": ["001"]},
+      "id": "valero-16b3c2",
+      "locationSet": {
+        "include": ["001"],
+        "exclude": ["pl"]
+      },
       "tags": {
         "amenity": "fuel",
         "brand": "Valero",
@@ -4306,8 +4603,11 @@
     },
     {
       "displayName": "Walmart",
-      "id": "walmart-b3d110",
-      "locationSet": {"include": ["001"]},
+      "id": "walmart-16b3c2",
+      "locationSet": {
+        "include": ["001"],
+        "exclude": ["pl"]
+      },
       "tags": {
         "amenity": "fuel",
         "brand": "Walmart",
@@ -4382,7 +4682,7 @@
         "amenity": "fuel",
         "brand": "Caltex",
         "brand:wikidata": "Q5023980",
-        "brand:wikipedia": "en:Euro Garages Australia",
+        "brand:wikipedia": "en:EG Australia",
         "name": "Woolworths Petrol"
       }
     },
@@ -4399,8 +4699,11 @@
     },
     {
       "displayName": "YPF",
-      "id": "ypf-b3d110",
-      "locationSet": {"include": ["001"]},
+      "id": "ypf-16b3c2",
+      "locationSet": {
+        "include": ["001"],
+        "exclude": ["pl"]
+      },
       "tags": {
         "amenity": "fuel",
         "brand": "YPF",
@@ -4411,8 +4714,11 @@
     },
     {
       "displayName": "YX",
-      "id": "yx-b3d110",
-      "locationSet": {"include": ["001"]},
+      "id": "yx-16b3c2",
+      "locationSet": {
+        "include": ["001"],
+        "exclude": ["pl"]
+      },
       "tags": {
         "amenity": "fuel",
         "brand": "YX",
@@ -4421,8 +4727,11 @@
     },
     {
       "displayName": "YX 7-Eleven",
-      "id": "yx7eleven-b3d110",
-      "locationSet": {"include": ["001"]},
+      "id": "yx7eleven-16b3c2",
+      "locationSet": {
+        "include": ["001"],
+        "exclude": ["pl"]
+      },
       "tags": {
         "amenity": "fuel",
         "brand": "YX 7-Eleven",
@@ -4566,8 +4875,11 @@
     },
     {
       "displayName": "Движение",
-      "id": "945016-b3d110",
-      "locationSet": {"include": ["001"]},
+      "id": "945016-16b3c2",
+      "locationSet": {
+        "include": ["001"],
+        "exclude": ["pl"]
+      },
       "tags": {
         "amenity": "fuel",
         "brand": "Движение",
@@ -4673,8 +4985,11 @@
     },
     {
       "displayName": "ННК",
-      "id": "6afb99-b3d110",
-      "locationSet": {"include": ["001"]},
+      "id": "6afb99-16b3c2",
+      "locationSet": {
+        "include": ["001"],
+        "exclude": ["pl"]
+      },
       "tags": {
         "amenity": "fuel",
         "brand": "ННК",
@@ -4739,8 +5054,11 @@
     },
     {
       "displayName": "Роснефть",
-      "id": "rosneft-b3d110",
-      "locationSet": {"include": ["001"]},
+      "id": "rosneft-16b3c2",
+      "locationSet": {
+        "include": ["001"],
+        "exclude": ["pl"]
+      },
       "tags": {
         "amenity": "fuel",
         "brand": "Роснефть",
@@ -4824,8 +5142,11 @@
     },
     {
       "displayName": "Укр-Петроль",
-      "id": "2b21d3-b3d110",
-      "locationSet": {"include": ["001"]},
+      "id": "2b21d3-16b3c2",
+      "locationSet": {
+        "include": ["001"],
+        "exclude": ["pl"]
+      },
       "tags": {
         "amenity": "fuel",
         "brand": "Укр-Петроль",
@@ -4850,8 +5171,11 @@
     },
     {
       "displayName": "ШТС",
-      "id": "87a0bd-b3d110",
-      "locationSet": {"include": ["001"]},
+      "id": "87a0bd-16b3c2",
+      "locationSet": {
+        "include": ["001"],
+        "exclude": ["pl"]
+      },
       "tags": {
         "amenity": "fuel",
         "brand": "ШТС",
@@ -4925,8 +5249,11 @@
     },
     {
       "displayName": "أفريقيا",
-      "id": "fcaeae-b3d110",
-      "locationSet": {"include": ["001"]},
+      "id": "fcaeae-16b3c2",
+      "locationSet": {
+        "include": ["001"],
+        "exclude": ["pl"]
+      },
       "tags": {
         "amenity": "fuel",
         "brand": "أفريقيا",
@@ -4951,8 +5278,11 @@
     },
     {
       "displayName": "امارات",
-      "id": "6f8891-b3d110",
-      "locationSet": {"include": ["001"]},
+      "id": "6f8891-16b3c2",
+      "locationSet": {
+        "include": ["001"],
+        "exclude": ["pl"]
+      },
       "tags": {
         "amenity": "fuel",
         "brand": "امارات",
@@ -5040,7 +5370,7 @@
         "brand:ar": "توتال",
         "brand:en": "Total",
         "brand:wikidata": "Q154037",
-        "brand:wikipedia": "fr:Total (entreprise)",
+        "brand:wikipedia": "fr:TotalEnergies",
         "name": "توتال",
         "name:ar": "توتال",
         "name:en": "Total"
@@ -5074,8 +5404,11 @@
     },
     {
       "displayName": "سی این جی",
-      "id": "6bd6bd-b3d110",
-      "locationSet": {"include": ["001"]},
+      "id": "6bd6bd-16b3c2",
+      "locationSet": {
+        "include": ["001"],
+        "exclude": ["pl"]
+      },
       "tags": {
         "amenity": "fuel",
         "brand": "سی این جی",
@@ -5123,8 +5456,11 @@
     },
     {
       "displayName": "طوطال",
-      "id": "bcdcc9-b3d110",
-      "locationSet": {"include": ["001"]},
+      "id": "bcdcc9-16b3c2",
+      "locationSet": {
+        "include": ["001"],
+        "exclude": ["pl"]
+      },
       "tags": {
         "amenity": "fuel",
         "brand": "طوطال",
@@ -5133,8 +5469,11 @@
     },
     {
       "displayName": "عجيل",
-      "id": "e4e16a-b3d110",
-      "locationSet": {"include": ["001"]},
+      "id": "e4e16a-16b3c2",
+      "locationSet": {
+        "include": ["001"],
+        "exclude": ["pl"]
+      },
       "tags": {
         "amenity": "fuel",
         "brand": "عجيل",
@@ -5487,8 +5826,11 @@
     },
     {
       "displayName": "台塑石油",
-      "id": "formosapetrochemicalcorporation-b3d110",
-      "locationSet": {"include": ["001"]},
+      "id": "formosapetrochemicalcorporation-16b3c2",
+      "locationSet": {
+        "include": ["001"],
+        "exclude": ["pl"]
+      },
       "tags": {
         "amenity": "fuel",
         "brand": "台塑石油",
@@ -5541,8 +5883,11 @@
     },
     {
       "displayName": "福懋加油站",
-      "id": "2dae50-b3d110",
-      "locationSet": {"include": ["001"]},
+      "id": "2dae50-16b3c2",
+      "locationSet": {
+        "include": ["001"],
+        "exclude": ["pl"]
+      },
       "tags": {
         "amenity": "fuel",
         "brand": "福懋加油站",

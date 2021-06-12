@@ -114,6 +114,18 @@
       }
     },
     {
+      "displayName": "Pegadaian",
+      "id": "pegadaian-cd799d",
+      "locationSet": {"include": ["id"]},
+      "tags": {
+        "brand": "Pegadaian",
+        "brand:wikidata": "Q7160531",
+        "brand:wikipedia": "id:Pegadaian (perusahaan)",
+        "name": "Pegadaian",
+        "shop": "pawnbroker"
+      }
+    },
+    {
       "displayName": "Ramsdens",
       "id": "ramsdens-c861e3",
       "locationSet": {"include": ["gb"]},
@@ -154,6 +166,36 @@
         "brand": "Villarica Pawnshop",
         "brand:wikidata": "Q62391438",
         "name": "Villarica Pawnshop",
+        "shop": "pawnbroker"
+      }
+    },
+    {
+      "displayName": "Благо (Russia)",
+      "id": "1a22da-a9abeb",
+      "locationSet": {"include": ["ru"]},
+      "tags": {
+        "brand": "Благо",
+        "name": "Благо",
+        "shop": "pawnbroker"
+      }
+    },
+    {
+      "displayName": "Благо (Ukraine)",
+      "id": "1a22da-6b12a2",
+      "locationSet": {"include": ["ua"]},
+      "tags": {
+        "brand": "Благо",
+        "name": "Благо",
+        "shop": "pawnbroker"
+      }
+    },
+    {
+      "displayName": "Ломбард Центральный",
+      "id": "c5647a-07d800",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "brand": "Ломбард Центральный",
+        "name": "Ломбард Центральный",
         "shop": "pawnbroker"
       }
     },

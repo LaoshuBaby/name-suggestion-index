@@ -119,7 +119,8 @@
       "tags": {
         "amenity": "car_sharing",
         "operator": "Citiz",
-        "operator:wikidata": "Q3080530"
+        "operator:wikidata": "Q3080530",
+        "operator:wikipedia": "fr:Citiz"
       }
     },
     {
@@ -444,6 +445,15 @@
       }
     },
     {
+      "displayName": "Régie des Transports du Territoire de Belfort",
+      "id": "regiedestransportsduterritoiredebelfort-672a50",
+      "locationSet": {"include": ["fx"]},
+      "tags": {
+        "amenity": "car_sharing",
+        "operator": "Régie des Transports du Territoire de Belfort"
+      }
+    },
+    {
       "displayName": "Roma Servizi per la Mobilità",
       "id": "romaserviziperlamobilita-4d7a0e",
       "locationSet": {"include": ["it"]},
@@ -661,7 +671,7 @@
         "operator:en": "Times Car Share",
         "operator:ja": "タイムズカーシェア",
         "operator:wikidata": "Q17987881",
-        "operator:wikipedia": "ja:タイムズカーシェア"
+        "operator:wikipedia": "ja:タイムズカー"
       }
     }
   ]

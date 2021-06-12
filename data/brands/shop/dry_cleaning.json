@@ -196,6 +196,20 @@
         "name:ja": "白洋舎",
         "shop": "dry_cleaning"
       }
+    },
+    {
+      "displayName": "福莱特",
+      "id": "fornet-0dec54",
+      "locationSet": {"include": ["cn"]},
+      "tags": {
+        "brand": "福莱特",
+        "brand:en": "Fornet",
+        "brand:zh": "福莱特",
+        "name": "福莱特",
+        "name:en": "Fornet",
+        "name:zh": "福莱特",
+        "shop": "dry_cleaning"
+      }
     }
   ]
 }

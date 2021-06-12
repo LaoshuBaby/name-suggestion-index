@@ -283,6 +283,16 @@
       }
     },
     {
+      "displayName": "Prolicor",
+      "id": "prolicor-ed57fa",
+      "locationSet": {"include": ["ve"]},
+      "tags": {
+        "brand": "Prolicor",
+        "name": "Prolicor",
+        "shop": "alcohol"
+      }
+    },
+    {
       "displayName": "SAQ",
       "id": "saq-c2c781",
       "locationSet": {"include": ["ca"]},

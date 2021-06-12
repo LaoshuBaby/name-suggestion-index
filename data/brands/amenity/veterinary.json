@@ -5,6 +5,7 @@
       "generic": [
         "^(cl[ií]nica )?veterinari[ao]$",
         "^(clinique )?vétérinaire$",
+        "^tierarztpraxis$",
         "^veterinary$",
         "^ветеринарная клиника$",
         "^ветлечебница$"
@@ -34,6 +35,18 @@
         "brand:wikidata": "Q3520039",
         "brand:wikipedia": "en:Blue Cross (animal charity)",
         "name": "Blue Cross Pet Clinic"
+      }
+    },
+    {
+      "displayName": "Greencross",
+      "id": "greencross-42dd12",
+      "locationSet": {"include": ["au"]},
+      "tags": {
+        "amenity": "veterinary",
+        "brand": "Greencross",
+        "brand:wikidata": "Q41179992",
+        "brand:wikipedia": "en:Greencross",
+        "name": "Greencross"
       }
     },
     {

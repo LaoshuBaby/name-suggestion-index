@@ -16,8 +16,10 @@
       "tags": {
         "network": "Arnhem-Nijmegen",
         "network:wikidata": "Q117142",
+        "network:wikipedia": "nl:Arnhemse trolleybus",
         "operator": "Breng",
         "operator:wikidata": "Q1968918",
+        "operator:wikipedia": "nl:Breng",
         "route": "trolleybus"
       }
     },
@@ -81,12 +83,25 @@
       }
     },
     {
+      "displayName": "Kauno m. savivaldybė",
+      "id": "kaunomsavivaldybe-b0cd15",
+      "locationSet": {"include": ["lt"]},
+      "tags": {
+        "network": "Kauno m. savivaldybė",
+        "operator": "Kauno autobusai",
+        "operator:wikidata": "Q16303091",
+        "operator:wikipedia": "lt:Kauno autobusai",
+        "route": "trolleybus"
+      }
+    },
+    {
       "displayName": "King County Metro",
       "id": "kingcountymetro-62d74d",
       "locationSet": {"include": ["us"]},
       "tags": {
         "network": "King County Metro",
         "network:wikidata": "Q6411393",
+        "network:wikipedia": "en:King County Metro",
         "route": "trolleybus"
       }
     },
@@ -117,8 +132,10 @@
     },
     {
       "displayName": "MBTA",
-      "id": "mbta-62d74d",
-      "locationSet": {"include": ["us"]},
+      "id": "mbta-73386d",
+      "locationSet": {
+        "include": [[-71, 42, 100]]
+      },
       "matchNames": [
         "massachusetts bay transportation authority"
       ],
@@ -135,8 +152,8 @@
       "locationSet": {"include": ["sk"]},
       "tags": {
         "network": "MHD Bratislava",
-        "network:wikidata": "Q2753968",
-        "network:wikipedia": "sk:Trolejbusová doprava v Bratislave",
+        "network:wikidata": "Q7258005",
+        "network:wikipedia": "sk:Mestská hromadná doprava v Bratislave",
         "operator": "DPB",
         "operator:wikidata": "Q685601",
         "operator:wikipedia": "sk:Dopravný podnik Bratislava",
@@ -234,10 +251,29 @@
     },
     {
       "displayName": "Mobilis",
-      "id": "mobilis-97f884",
-      "locationSet": {"include": ["001"]},
+      "id": "mobilis-052ea8",
+      "locationSet": {"include": ["ch"]},
       "tags": {
         "network": "Mobilis",
+        "network:wikidata": "Q2394222",
+        "network:wikipedia": "de:Tarifverbund Waadt",
+        "operator": "TL",
+        "operator:wikidata": "Q675718",
+        "operator:wikipedia": "de:Transports publics de la région lausannoise",
+        "route": "trolleybus"
+      }
+    },
+    {
+      "displayName": "Muni",
+      "id": "muni-62d74d",
+      "locationSet": {"include": ["us"]},
+      "tags": {
+        "network": "Muni",
+        "network:wikidata": "Q1140138",
+        "network:wikipedia": "en:San Francisco Municipal Railway",
+        "operator": "San Francisco Municipal Railway",
+        "operator:wikidata": "Q7414072",
+        "operator:wikipedia": "en:San Francisco Municipal Transportation Agency",
         "route": "trolleybus"
       }
     },
@@ -452,9 +488,11 @@
       "tags": {
         "network": "VRR",
         "network:wikidata": "Q448199",
+        "network:wikipedia": "de:Verkehrsverbund Rhein-Ruhr",
         "operator": "Stadtwerke Solingen",
         "operator:short": "SWS",
         "operator:wikidata": "Q2328618",
+        "operator:wikipedia": "de:Stadtwerke Solingen (Verkehrsbetrieb)",
         "route": "trolleybus"
       }
     },
@@ -528,6 +566,15 @@
         "operator:sr": "ГСП Београд",
         "operator:wikidata": "Q8227578",
         "operator:wikipedia": "sr:ГСП Београд",
+        "route": "trolleybus"
+      }
+    },
+    {
+      "displayName": "Брянский троллейбус",
+      "id": "d93e53-ea4a14",
+      "locationSet": {"include": ["ru"]},
+      "tags": {
+        "network": "Брянский троллейбус",
         "route": "trolleybus"
       }
     },
@@ -615,8 +662,8 @@
     },
     {
       "displayName": "济南公交——济南公交公司",
-      "id": "f9ccee-95023b",
-      "locationSet": {"include": ["cn"]},
+      "id": "61a138-97f884",
+      "locationSet": {"include": ["001"]},
       "tags": {
         "network": "济南公交——济南公交公司",
         "route": "trolleybus"

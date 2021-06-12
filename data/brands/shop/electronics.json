@@ -33,6 +33,16 @@
       }
     },
     {
+      "displayName": "Alser.kz",
+      "id": "alserkz-d3529a",
+      "locationSet": {"include": ["kz"]},
+      "tags": {
+        "brand": "Alser.kz",
+        "name": "Alser.kz",
+        "shop": "electronics"
+      }
+    },
+    {
       "displayName": "Altex",
       "id": "altex-9c4b16",
       "locationSet": {"include": ["ro"]},
@@ -784,6 +794,18 @@
       }
     },
     {
+      "displayName": "Technodom",
+      "id": "technodom-d3529a",
+      "locationSet": {"include": ["kz"]},
+      "tags": {
+        "brand": "Technodom",
+        "name": "Technodom",
+        "name:en": "Technodom",
+        "name:ru": "Технодом",
+        "shop": "electronics"
+      }
+    },
+    {
       "displayName": "Technopoint",
       "id": "technopoint-71b2fd",
       "locationSet": {"include": ["ru"]},
@@ -804,6 +826,18 @@
         "brand:wikidata": "Q3357520",
         "brand:wikipedia": "en:Teknikmagasinet",
         "name": "Teknikmagasinet",
+        "shop": "electronics"
+      }
+    },
+    {
+      "displayName": "Teknosa",
+      "id": "teknosa-194b37",
+      "locationSet": {"include": ["tr"]},
+      "tags": {
+        "brand": "Teknosa",
+        "brand:wikidata": "Q6559269",
+        "brand:wikipedia": "tr:Teknosa",
+        "name": "Teknosa",
         "shop": "electronics"
       }
     },
@@ -856,6 +890,30 @@
       }
     },
     {
+      "displayName": "Vatan Bilgisayar",
+      "id": "vatanbilgisayar-194b37",
+      "locationSet": {"include": ["tr"]},
+      "tags": {
+        "brand": "Vatan Bilgisayar",
+        "brand:wikidata": "Q6048050",
+        "brand:wikipedia": "tr:Vatan Bilgisayar",
+        "name": "Vatan Bilgisayar",
+        "shop": "electronics"
+      }
+    },
+    {
+      "displayName": "Vijay Sales",
+      "id": "vijaysales-91ea11",
+      "locationSet": {"include": ["in"]},
+      "tags": {
+        "brand": "Vijay Sales",
+        "brand:wikidata": "Q7929200",
+        "brand:wikipedia": "en:Vijay Sales",
+        "name": "Vijay Sales",
+        "shop": "electronics"
+      }
+    },
+    {
       "displayName": "Worten",
       "id": "worten-c3ad1a",
       "locationSet": {"include": ["es", "pt"]},
@@ -864,16 +922,6 @@
         "brand:wikidata": "Q10394039",
         "brand:wikipedia": "pt:Worten",
         "name": "Worten",
-        "shop": "electronics"
-      }
-    },
-    {
-      "displayName": "YAMADA",
-      "id": "yamada-f86f5e",
-      "locationSet": {"include": ["jp"]},
-      "tags": {
-        "brand": "YAMADA",
-        "name": "YAMADA",
         "shop": "electronics"
       }
     },
@@ -1113,6 +1161,7 @@
       "displayName": "ヤマダ電機",
       "id": "yamadadenki-f86f5e",
       "locationSet": {"include": ["jp"]},
+      "matchNames": ["yamada"],
       "tags": {
         "brand": "ヤマダ電機",
         "brand:en": "Yamada Denki",

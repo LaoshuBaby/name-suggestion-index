@@ -17,6 +17,16 @@
       }
     },
     {
+      "displayName": "Colorshop",
+      "id": "colorshop-b01c79",
+      "locationSet": {"include": ["br"]},
+      "tags": {
+        "brand": "Colorshop",
+        "name": "Colorshop",
+        "shop": "paint"
+      }
+    },
+    {
       "displayName": "Comex",
       "id": "comex-d8e74b",
       "locationSet": {

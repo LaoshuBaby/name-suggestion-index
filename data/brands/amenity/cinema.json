@@ -152,8 +152,11 @@
     },
     {
       "displayName": "Cinemark",
-      "id": "cinemark-f33303",
-      "locationSet": {"include": ["001"]},
+      "id": "cinemark-dc12dc",
+      "locationSet": {
+        "include": ["001"],
+        "exclude": ["pl"]
+      },
       "tags": {
         "amenity": "cinema",
         "brand": "Cinemark",
@@ -171,6 +174,19 @@
         "brand": "Cinemax",
         "brand:wikidata": "Q93129643",
         "name": "Cinemax"
+      }
+    },
+    {
+      "displayName": "Cinemaximum",
+      "id": "cinemaximum-690e75",
+      "locationSet": {"include": ["tr"]},
+      "matchNames": ["mars entertainment group"],
+      "tags": {
+        "amenity": "cinema",
+        "brand": "Cinemaximum",
+        "brand:wikidata": "Q24914175",
+        "brand:wikipedia": "en:Mars Entertainment Group",
+        "name": "Cinemaximum"
       }
     },
     {
@@ -255,8 +271,11 @@
     },
     {
       "displayName": "Cinepolis",
-      "id": "cinepolis-f33303",
-      "locationSet": {"include": ["001"]},
+      "id": "cinepolis-dc12dc",
+      "locationSet": {
+        "include": ["001"],
+        "exclude": ["pl"]
+      },
       "tags": {
         "amenity": "cinema",
         "brand": "Cinepolis",
@@ -368,6 +387,18 @@
         "brand:wikidata": "Q3128481",
         "brand:wikipedia": "fr:Haut et Court",
         "name": "Haut et Court"
+      }
+    },
+    {
+      "displayName": "Helios",
+      "id": "helios-696d99",
+      "locationSet": {"include": ["pl"]},
+      "tags": {
+        "amenity": "cinema",
+        "brand": "Helios",
+        "brand:wikidata": "Q5705879",
+        "brand:wikipedia": "pl:Helios (sieć kin)",
+        "name": "Helios"
       }
     },
     {
@@ -767,8 +798,11 @@
     },
     {
       "displayName": "Мир",
-      "id": "b80871-f33303",
-      "locationSet": {"include": ["001"]},
+      "id": "b80871-dc12dc",
+      "locationSet": {
+        "include": ["001"],
+        "exclude": ["pl"]
+      },
       "tags": {
         "amenity": "cinema",
         "brand": "Мир",
@@ -821,6 +855,22 @@
         "name": "万达影城",
         "name:en": "Wanda Cinemas",
         "name:zh": "万达影城"
+      }
+    },
+    {
+      "displayName": "中影国际影城",
+      "id": "chinafilminternationalcinema-98bf22",
+      "locationSet": {"include": ["cn"]},
+      "tags": {
+        "amenity": "cinema",
+        "brand": "中影国际影城",
+        "brand:en": "China Film International Cinema",
+        "brand:wikidata": "Q10875534",
+        "brand:wikipedia": "zh:中影国际影城",
+        "brand:zh": "中影国际影城",
+        "name": "中影国际影城",
+        "name:en": "China Film International Cinema",
+        "name:zh": "中影国际影城"
       }
     }
   ]

@@ -111,6 +111,7 @@
         "amenity": "pharmacy",
         "brand": "Amavita",
         "brand:wikidata": "Q93733901",
+        "brand:wikipedia": "de:Amavita",
         "healthcare": "pharmacy",
         "name": "Amavita"
       }
@@ -191,6 +192,28 @@
       }
     },
     {
+      "displayName": "Apteka Rodzinna",
+      "id": "aptekarodzinna-cf61fb",
+      "locationSet": {"include": ["pl"]},
+      "tags": {
+        "amenity": "pharmacy",
+        "brand": "Apteka Rodzinna",
+        "healthcare": "pharmacy",
+        "name": "Apteka Rodzinna"
+      }
+    },
+    {
+      "displayName": "Apteka Słoneczna",
+      "id": "aptekasloneczna-cf61fb",
+      "locationSet": {"include": ["pl"]},
+      "tags": {
+        "amenity": "pharmacy",
+        "brand": "Apteka Słoneczna",
+        "healthcare": "pharmacy",
+        "name": "Apteka Słoneczna"
+      }
+    },
+    {
       "displayName": "Asda",
       "id": "asda-b98d4f",
       "locationSet": {"include": ["gb"]},
@@ -201,6 +224,17 @@
         "brand:wikipedia": "en:Asda",
         "healthcare": "pharmacy",
         "name": "Asda"
+      }
+    },
+    {
+      "displayName": "Aster Pharmacy",
+      "id": "asterpharmacy-15bf8e",
+      "locationSet": {"include": ["ae"]},
+      "tags": {
+        "amenity": "pharmacy",
+        "brand": "Aster Pharmacy",
+        "healthcare": "pharmacy",
+        "name": "Aster Pharmacy"
       }
     },
     {
@@ -277,8 +311,8 @@
     },
     {
       "displayName": "Boots",
-      "id": "boots-b98d4f",
-      "locationSet": {"include": ["gb"]},
+      "id": "boots-9fb23d",
+      "locationSet": {"include": ["gb", "th"]},
       "matchNames": ["boots pharmacy"],
       "tags": {
         "amenity": "pharmacy",
@@ -1044,6 +1078,17 @@
       }
     },
     {
+      "displayName": "Gemini",
+      "id": "gemini-cf61fb",
+      "locationSet": {"include": ["pl"]},
+      "tags": {
+        "amenity": "pharmacy",
+        "brand": "Gemini",
+        "healthcare": "pharmacy",
+        "name": "Gemini"
+      }
+    },
+    {
       "displayName": "Generika",
       "id": "generika-2ddb76",
       "locationSet": {"include": ["ph"]},
@@ -1598,6 +1643,17 @@
         "brand:wikipedia": "en:PharmaChoice",
         "healthcare": "pharmacy",
         "name": "PharmaChoice"
+      }
+    },
+    {
+      "displayName": "Pharmacie du Château",
+      "id": "pharmacieduchateau-f887ab",
+      "locationSet": {"include": ["fx"]},
+      "tags": {
+        "amenity": "pharmacy",
+        "brand": "Pharmacie du Château",
+        "healthcare": "pharmacy",
+        "name": "Pharmacie du Château"
       }
     },
     {
@@ -2251,16 +2307,41 @@
     },
     {
       "displayName": "Аптека доброго дня",
-      "id": "941286-996e17",
+      "id": "pharmacygoodday-996e17",
       "locationSet": {"include": ["ua"]},
       "tags": {
         "amenity": "pharmacy",
         "brand": "Аптека доброго дня",
+        "brand:en": "Pharmacy Good Day",
+        "brand:ru": "Аптека доброго дня",
+        "brand:uk": "Аптека доброго дня",
         "brand:wikidata": "Q102174228",
         "healthcare": "pharmacy",
         "name": "Аптека доброго дня",
+        "name:en": "Pharmacy Good Day",
         "name:ru": "Аптека доброго дня",
         "name:uk": "Аптека доброго дня"
+      }
+    },
+    {
+      "displayName": "Аптека Твоєї Родини",
+      "id": "pharmacyyourfamily-996e17",
+      "locationSet": {"include": ["ua"]},
+      "matchNames": [
+        "аптека твоей родини",
+        "атр",
+        "твоєї родини"
+      ],
+      "tags": {
+        "amenity": "pharmacy",
+        "brand": "Аптека Твоєї Родини",
+        "brand:en": "Pharmacy Your Family",
+        "brand:uk": "Аптека Твоєї Родини",
+        "brand:wikidata": "Q106424150",
+        "healthcare": "pharmacy",
+        "name": "Аптека Твоєї Родини",
+        "name:en": "Pharmacy Your Family",
+        "name:uk": "Аптека Твоєї Родини"
       }
     },
     {
@@ -2331,6 +2412,17 @@
       }
     },
     {
+      "displayName": "Вита-Плюс",
+      "id": "338794-288c27",
+      "locationSet": {"include": ["ru"]},
+      "tags": {
+        "amenity": "pharmacy",
+        "brand": "Вита-Плюс",
+        "healthcare": "pharmacy",
+        "name": "Вита-Плюс"
+      }
+    },
+    {
       "displayName": "Горздрав",
       "id": "634cc7-288c27",
       "locationSet": {"include": ["ru"]},
@@ -2350,6 +2442,17 @@
         "brand": "Городская аптека",
         "healthcare": "pharmacy",
         "name": "Городская аптека"
+      }
+    },
+    {
+      "displayName": "Городская Здравница",
+      "id": "19f8c0-288c27",
+      "locationSet": {"include": ["ru"]},
+      "tags": {
+        "amenity": "pharmacy",
+        "brand": "Городская Здравница",
+        "healthcare": "pharmacy",
+        "name": "Городская Здравница"
       }
     },
     {
@@ -2444,6 +2547,17 @@
       }
     },
     {
+      "displayName": "Калина фарм",
+      "id": "99fb25-288c27",
+      "locationSet": {"include": ["ru"]},
+      "tags": {
+        "amenity": "pharmacy",
+        "brand": "Калина фарм",
+        "healthcare": "pharmacy",
+        "name": "Калина фарм"
+      }
+    },
+    {
       "displayName": "Классика",
       "id": "bd136d-288c27",
       "locationSet": {"include": ["ru"]},
@@ -2463,6 +2577,28 @@
         "brand": "Ладушка",
         "healthcare": "pharmacy",
         "name": "Ладушка"
+      }
+    },
+    {
+      "displayName": "Лекарь",
+      "id": "d0f33d-f5140f",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "amenity": "pharmacy",
+        "brand": "Лекарь",
+        "healthcare": "pharmacy",
+        "name": "Лекарь"
+      }
+    },
+    {
+      "displayName": "ЛекОптТорг",
+      "id": "7557e5-288c27",
+      "locationSet": {"include": ["ru"]},
+      "tags": {
+        "amenity": "pharmacy",
+        "brand": "ЛекОптТорг",
+        "healthcare": "pharmacy",
+        "name": "ЛекОптТорг"
       }
     },
     {
@@ -2529,6 +2665,17 @@
         "brand": "Минская Фармация",
         "healthcare": "pharmacy",
         "name": "Минская Фармация"
+      }
+    },
+    {
+      "displayName": "Надежда-Фарм",
+      "id": "11996d-288c27",
+      "locationSet": {"include": ["ru"]},
+      "tags": {
+        "amenity": "pharmacy",
+        "brand": "Надежда-Фарм",
+        "healthcare": "pharmacy",
+        "name": "Надежда-Фарм"
       }
     },
     {
@@ -3323,6 +3470,17 @@
         "brand": "屈臣氏",
         "healthcare": "pharmacy",
         "name": "屈臣氏"
+      }
+    },
+    {
+      "displayName": "德生堂",
+      "id": "a67c33-f38123",
+      "locationSet": {"include": ["cn"]},
+      "tags": {
+        "amenity": "pharmacy",
+        "brand": "德生堂",
+        "healthcare": "pharmacy",
+        "name": "德生堂"
       }
     },
     {

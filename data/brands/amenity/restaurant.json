@@ -7,6 +7,7 @@
         "^(chifa|chinese restaurant)$",
         "^(pancake|steak)( house)?$",
         "^(ресторан|столовая)$",
+        "^(早点|早餐店)$",
         "^caf[eé](t[eé]r[ií]a)?$",
         "^garba(drome)?$",
         "^pizz(ari|eri)?a$",
@@ -14,15 +15,14 @@
         "^sushi\\s?(bar|house)?$",
         "^رستوران$",
         "^مطعم$",
-        "^早餐店$",
         "^食堂$"
       ],
       "named": [
         "^((da|la|las|el|ristorante|zum|zur)\\s)",
         "^((gasthaus|gasthof|schwarzer)?\\s?(adler|krone|löwen|zur (linde|post)))$",
         "^(ali baba|adria|alte post|akropolis|amici|aroma|artemis|asia|athen|athos|bahnhof|bamboo|bären|bella (vista|napoli))$",
-        "^(belvedere|brasserie|canteen|cantina|capri|carpe diem|casa\\s?(blanca|mia)|casino|comedor|comida china)$",
-        "^(china (buffet|city|garden|house|king|palace|star|town|wok))$",
+        "^(belvedere|boathouse|the boathouse|brasserie|canteen|cantina|capri|carpe diem|casa\\s?(blanca|mia)|casino|comedor|comida china)$",
+        "^(china (buffet|city|express|garden|house|king|palace|star|town))$",
         "^(delphi|deutsches haus|dhaba|dionysos|dolce vita|don camillo|dorfkrug|europa|frohsinn)$",
         "^(golden dragon|great wall|grüner baum|hellas|hirsch(en)?|hong kong|happy garden)$",
         "^(indian palace|ichiban|il giardino|istanbul|italia|jade garden|jägerhof)$",
@@ -250,6 +250,19 @@
         "brand:wikipedia": "en:Benihana",
         "cuisine": "japanese;teppanyaki;steak",
         "name": "Benihana"
+      }
+    },
+    {
+      "displayName": "Benny & Co.",
+      "id": "bennyandco-e68b16",
+      "locationSet": {"include": ["ca"]},
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Benny & Co.",
+        "brand:wikidata": "Q106963815",
+        "cuisine": "chicken;barbecue;poutine",
+        "name": "Benny & Co.",
+        "takeaway": "yes"
       }
     },
     {
@@ -871,6 +884,22 @@
         "brand:wikipedia": "de:Coop (Schweiz)",
         "cuisine": "german",
         "name": "Coop Restaurant"
+      }
+    },
+    {
+      "displayName": "Cooper's Hawk",
+      "id": "coopershawk-96af40",
+      "locationSet": {"include": ["us"]},
+      "matchTags": ["shop/alcohol", "shop/wine"],
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Cooper's Hawk",
+        "brand:wikidata": "Q17511079",
+        "brand:wikipedia": "en:Cooper's Hawk Winery & Restaurants",
+        "cuisine": "american",
+        "name": "Cooper's Hawk",
+        "official_name": "Cooper's Hawk Winery & Restaurants",
+        "shop": "wine"
       }
     },
     {
@@ -1506,16 +1535,16 @@
       }
     },
     {
-      "displayName": "Hog's Australia's Steakhouse",
-      "id": "hogsaustraliassteakhouse-3c82e9",
+      "displayName": "Hog's Breath Cafe",
+      "id": "hogsbreathcafe-3c82e9",
       "locationSet": {"include": ["au"]},
       "tags": {
         "amenity": "restaurant",
-        "brand": "Hog's Australia's Steakhouse",
+        "brand": "Hog's Breath Cafe",
         "brand:wikidata": "Q5876920",
-        "brand:wikipedia": "en:Hog's Australia's Steakhouse",
+        "brand:wikipedia": "en:Hog's Breath Cafe",
         "cuisine": "steak_house",
-        "name": "Hog's Australia's Steakhouse"
+        "name": "Hog's Breath Cafe"
       }
     },
     {
@@ -2170,6 +2199,19 @@
       }
     },
     {
+      "displayName": "Miller's Ale House",
+      "id": "millersalehouse-96af40",
+      "locationSet": {"include": ["us"]},
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Miller's Ale House",
+        "brand:wikidata": "Q6858987",
+        "brand:wikipedia": "en:Miller's Ale House",
+        "cuisine": "american",
+        "name": "Miller's Ale House"
+      }
+    },
+    {
       "displayName": "Mimi's Cafe",
       "id": "mimiscafe-96af40",
       "locationSet": {"include": ["us"]},
@@ -2637,6 +2679,21 @@
       }
     },
     {
+      "displayName": "Piemininster",
+      "id": "pieminister-9b5453",
+      "locationSet": {"include": ["gb"]},
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Pieminister",
+        "brand:wikidata": "Q16967078",
+        "brand:wikipedia": "en:Pieminister",
+        "cuisine": "pie",
+        "diet:vegan": "yes",
+        "diet:vegetarian": "yes",
+        "name": "Pieminister"
+      }
+    },
+    {
       "displayName": "Pieology Pizzeria",
       "id": "pieologypizzeria-96af40",
       "locationSet": {"include": ["us"]},
@@ -2880,7 +2937,7 @@
         "amenity": "restaurant",
         "brand": "Rocky Rococo",
         "brand:wikidata": "Q7356002",
-        "brand:wikipedia": "en:Rocky Rococo (pizza chain)",
+        "brand:wikipedia": "en:Rocky Rococo",
         "cuisine": "pizza",
         "name": "Rocky Rococo"
       }
@@ -2961,6 +3018,28 @@
         "brand:wikipedia": "en:Ruth's Chris Steak House",
         "cuisine": "american",
         "name": "Ruth's Chris Steak House"
+      }
+    },
+    {
+      "displayName": "Saizeriya",
+      "id": "saizeriya-10ab86",
+      "locationSet": {
+        "include": ["001"],
+        "exclude": ["cn", "hk", "jp", "tw"]
+      },
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Saizeriya",
+        "brand:en": "Saizeriya",
+        "brand:it": "Saizeriya",
+        "brand:ja": "サイゼリヤ",
+        "brand:wikidata": "Q886564",
+        "brand:wikipedia": "en:Saizeriya",
+        "cuisine": "italian",
+        "name": "Saizeriya",
+        "name:en": "Saizeriya",
+        "name:it": "Saizeriya",
+        "name:ja": "サイゼリヤ"
       }
     },
     {
@@ -3310,6 +3389,16 @@
       }
     },
     {
+      "displayName": "The Boathouse",
+      "id": "theboathouse-2fabb0",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "The Boathouse",
+        "name": "The Boathouse"
+      }
+    },
+    {
       "displayName": "The Cheesecake Factory",
       "id": "thecheesecakefactory-96af40",
       "locationSet": {"include": ["us"]},
@@ -3549,19 +3638,6 @@
       }
     },
     {
-      "displayName": "Vips (Asia)",
-      "id": "vips-355122",
-      "locationSet": {"include": ["cn", "kr"]},
-      "tags": {
-        "amenity": "restaurant",
-        "brand": "Vips",
-        "brand:wikidata": "Q12599540",
-        "brand:wikipedia": "ko:빕스",
-        "cuisine": "salad;steak_house",
-        "name": "Vips"
-      }
-    },
-    {
       "displayName": "Vips (España)",
       "id": "vips-acf031",
       "locationSet": {"include": ["es"]},
@@ -3707,9 +3783,9 @@
     },
     {
       "displayName": "Zambrero",
-      "id": "zambrero-91fcce",
+      "id": "zambrero-1498d5",
       "locationSet": {
-        "include": ["au", "ie", "nl", "th", "us"]
+        "include": ["au", "ie", "nz", "us"]
       },
       "tags": {
         "amenity": "restaurant",
@@ -4486,15 +4562,19 @@
     },
     {
       "displayName": "南京大牌档",
-      "id": "e44380-0a8e9b",
+      "id": "njdapaidang-0a8e9b",
       "locationSet": {"include": ["cn"]},
       "tags": {
         "amenity": "restaurant",
         "brand": "南京大牌档",
+        "brand:en": "njdapaidang",
         "brand:wikidata": "Q48898937",
         "brand:wikipedia": "zh:南京大牌档",
+        "brand:zh": "南京大牌档",
         "cuisine": "chinese",
-        "name": "南京大牌档"
+        "name": "南京大牌档",
+        "name:en": "njdapaidang",
+        "name:zh": "南京大牌档"
       }
     },
     {
@@ -4508,10 +4588,29 @@
         "brand:ja": "味千ラーメン",
         "brand:wikidata": "Q4699761",
         "brand:wikipedia": "zh:味千拉麵",
+        "brand:zn": "味千拉面",
         "cuisine": "ramen",
         "name": "味千拉面",
         "name:en": "Ajisen Ramen",
-        "name:ja": "味千ラーメン"
+        "name:ja": "味千ラーメン",
+        "name:zh": "味千拉面"
+      }
+    },
+    {
+      "displayName": "味爱普思",
+      "id": "vips-0a8e9b",
+      "locationSet": {"include": ["cn"]},
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "味爱普思",
+        "brand:en": "Vips",
+        "brand:wikidata": "Q12599540",
+        "brand:wikipedia": "ko:빕스",
+        "brand:zh": "味爱普思",
+        "cuisine": "salad;steak_house",
+        "name": "味爱普思",
+        "name:en": "Vips",
+        "name:zh": "味爱普思"
       }
     },
     {
@@ -4656,19 +4755,6 @@
       }
     },
     {
-      "displayName": "弘爺漢堡",
-      "id": "hongyahambuger-aafd63",
-      "locationSet": {"include": ["tw"]},
-      "tags": {
-        "amenity": "restaurant",
-        "brand": "弘爺漢堡",
-        "cuisine": "american;breakfast",
-        "name": "弘爺漢堡",
-        "name:en": "Hong Ya Hambuger",
-        "name:zh": "弘爺漢堡"
-      }
-    },
-    {
       "displayName": "必勝客 (臺灣)",
       "id": "pizzahut-aafd63",
       "locationSet": {"include": ["tw"]},
@@ -4702,38 +4788,6 @@
         "name": "必胜客",
         "name:en": "Pizza Hut",
         "name:zh": "必胜客"
-      }
-    },
-    {
-      "displayName": "拉亞漢堡",
-      "id": "layaburger-aafd63",
-      "locationSet": {"include": ["tw"]},
-      "tags": {
-        "amenity": "restaurant",
-        "brand": "拉亞漢堡",
-        "brand:en": "Laya Burger",
-        "brand:wikidata": "Q67933743",
-        "brand:wikipedia": "zh:拉亞漢堡",
-        "brand:zh": "拉亞漢堡",
-        "name": "拉亞漢堡",
-        "name:en": "Laya Burger",
-        "name:zh": "拉亞漢堡"
-      }
-    },
-    {
-      "displayName": "早安美芝城",
-      "id": "goodmorningmacc-aafd63",
-      "locationSet": {"include": ["tw"]},
-      "tags": {
-        "amenity": "restaurant",
-        "brand": "早安美芝城",
-        "brand:en": "Good Morning MACC",
-        "brand:wikidata": "Q30941219",
-        "brand:wikipedia": "zh:早安美芝城",
-        "brand:zh": "早安美芝城",
-        "name": "早安美芝城",
-        "name:en": "Good Morning MACC",
-        "name:zh": "早安美芝城"
       }
     },
     {
@@ -4852,23 +4906,6 @@
       }
     },
     {
-      "displayName": "美而美",
-      "id": "meiandmei-aafd63",
-      "locationSet": {"include": ["tw"]},
-      "tags": {
-        "amenity": "restaurant",
-        "brand": "美而美",
-        "brand:en": "Mei & Mei",
-        "brand:wikidata": "Q56197246",
-        "brand:wikipedia": "zh:美而美",
-        "brand:zh": "美而美",
-        "cuisine": "breakfast",
-        "name": "美而美",
-        "name:en": "Mei & Mei",
-        "name:zh": "美而美"
-      }
-    },
-    {
       "displayName": "華屋与兵衛",
       "id": "hanayayohei-36ca8e",
       "locationSet": {"include": ["jp"]},
@@ -4883,6 +4920,25 @@
         "name": "華屋与兵衛",
         "name:en": "Hanaya Yohei",
         "name:ja": "華屋与兵衛"
+      }
+    },
+    {
+      "displayName": "萨莉亚",
+      "id": "saizeriya-edb0b5",
+      "locationSet": {
+        "include": ["cn", "hk", "tw"]
+      },
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "萨莉亚",
+        "brand:en": "Saizeriya",
+        "brand:wikidata": "Q886564",
+        "brand:wikipedia": "en:Saizeriya",
+        "brand:zh": "萨莉亚",
+        "cuisine": "italian",
+        "name": "萨莉亚",
+        "name:en": "Saizeriya",
+        "name:zh": "萨莉亚"
       }
     },
     {
@@ -4923,22 +4979,6 @@
         "name:nan-TL": "Hóo-tshiu Tiong",
         "name:zh": "鬍鬚張",
         "name:zh-Hant": "鬍鬚張"
-      }
-    },
-    {
-      "displayName": "鮮芋仙",
-      "id": "meetfresh-4ed470",
-      "locationSet": {"include": ["cn", "tw"]},
-      "tags": {
-        "amenity": "restaurant",
-        "brand": "鮮芋仙",
-        "brand:en": "Meet Fresh",
-        "brand:wikidata": "Q11172707",
-        "brand:wikipedia": "zh:鮮芋仙",
-        "cuisine": "taiwanese",
-        "name": "鮮芋仙",
-        "name:en": "Meet Fresh",
-        "name:zh": "鮮芋仙"
       }
     },
     {

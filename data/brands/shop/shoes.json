@@ -75,6 +75,7 @@
       "displayName": "ara",
       "id": "ara-59c06d",
       "locationSet": {"include": ["at", "de"]},
+      "matchNames": ["ara schuhe", "ara shoes"],
       "tags": {
         "brand": "ara",
         "brand:wikidata": "Q623598",
@@ -662,7 +663,7 @@
       "tags": {
         "brand": "Jimmy Choo",
         "brand:wikidata": "Q5213855",
-        "brand:wikipedia": "en:Jimmy Choo (company)",
+        "brand:wikipedia": "en:Jimmy Choo (fashion house)",
         "name": "Jimmy Choo",
         "shop": "shoes"
       }
@@ -797,6 +798,27 @@
       }
     },
     {
+      "displayName": "Lloyd",
+      "id": "lloyd-928d17",
+      "locationSet": {
+        "include": [
+          "at",
+          "be",
+          "cz",
+          "de",
+          "dk",
+          "nl"
+        ]
+      },
+      "tags": {
+        "brand": "Lloyd",
+        "brand:wikidata": "Q1866944",
+        "brand:wikipedia": "de:Lloyd Shoes",
+        "name": "Lloyd",
+        "shop": "shoes"
+      }
+    },
+    {
       "displayName": "Loding",
       "id": "loding-9b62dc",
       "locationSet": {"include": ["001"]},
@@ -910,6 +932,17 @@
         "brand": "Moshulu",
         "brand:wikidata": "Q81555702",
         "name": "Moshulu",
+        "shop": "shoes"
+      }
+    },
+    {
+      "displayName": "MyShoes",
+      "id": "myshoes-0833e2",
+      "locationSet": {"include": ["de"]},
+      "tags": {
+        "brand": "MyShoes",
+        "brand:wikidata": "Q107091147",
+        "name": "MyShoes",
         "shop": "shoes"
       }
     },
@@ -1198,9 +1231,9 @@
     },
     {
       "displayName": "Schuh",
-      "id": "schuh-eef2fc",
+      "id": "schuh-a4f363",
       "locationSet": {
-        "include": ["de", "gb", "gg", "ie"]
+        "include": ["gb", "gg", "ie"]
       },
       "tags": {
         "brand": "Schuh",

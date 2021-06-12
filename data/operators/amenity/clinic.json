@@ -9,6 +9,7 @@
         "^(polyclinique|poliklinika)$",
         "^centro (de salud|de saúde|médico)$",
         "^health (sub )?center$",
+        "^ngo$",
         "^unidade?( básica)? de (saúde|salud)$",
         "^амбулатор[иі]я$",
         "^фап$",
@@ -187,17 +188,6 @@
       }
     },
     {
-      "displayName": "ECHS Polyclinic",
-      "id": "echspolyclinic-55c168",
-      "locationSet": {"include": ["001"]},
-      "tags": {
-        "amenity": "clinic",
-        "healthcare": "clinic",
-        "name": "ECHS Polyclinic",
-        "operator": "ECHS Polyclinic"
-      }
-    },
-    {
       "displayName": "Essalud",
       "id": "essalud-aa2e69",
       "locationSet": {"include": ["pe"]},
@@ -235,6 +225,16 @@
         "operator": "Fresenius Medical Care",
         "operator:wikidata": "Q650259",
         "operator:wikipedia": "en:Fresenius Medical Care"
+      }
+    },
+    {
+      "displayName": "GAMC",
+      "id": "gamc-55c168",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "operator": "GAMC"
       }
     },
     {
@@ -635,16 +635,6 @@
       }
     },
     {
-      "displayName": "ngo",
-      "id": "ngo-55c168",
-      "locationSet": {"include": ["001"]},
-      "tags": {
-        "amenity": "clinic",
-        "healthcare": "clinic",
-        "operator": "ngo"
-      }
-    },
-    {
       "displayName": "NHS",
       "id": "nhs-3d3458",
       "locationSet": {"include": ["gb"]},
@@ -952,12 +942,16 @@
       "displayName": "Servizo Galego de Saúde",
       "id": "servizogalegodesaude-edc4ef",
       "locationSet": {"include": ["es"]},
-      "matchNames": ["sergas - xunta de galicia"],
+      "matchNames": [
+        "sergas - xunta de galicia",
+        "servizo galego de saúde (sergas)"
+      ],
       "tags": {
         "amenity": "clinic",
         "healthcare": "clinic",
         "operator": "Servizo Galego de Saúde",
         "operator:short": "SERGAS",
+        "operator:type": "public",
         "operator:wikidata": "Q3393183",
         "operator:wikipedia": "es:Servicio Gallego de Salud"
       }
@@ -1127,6 +1121,16 @@
       }
     },
     {
+      "displayName": "Скандинавия",
+      "id": "e9ace9-14b936",
+      "locationSet": {"include": ["ru"]},
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "operator": "Скандинавия"
+      }
+    },
+    {
       "displayName": "ССМЦ",
       "id": "aa83b0-14b936",
       "locationSet": {"include": ["ru"]},
@@ -1162,6 +1166,16 @@
         "operator:he": "מכבי",
         "operator:wikidata": "Q2907040",
         "operator:wikipedia": "he:מכבי שירותי בריאות"
+      }
+    },
+    {
+      "displayName": "وزارة الصحة",
+      "id": "1d9246-55c168",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "operator": "وزارة الصحة"
       }
     },
     {

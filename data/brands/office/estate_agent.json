@@ -102,7 +102,6 @@
       "tags": {
         "brand": "Bourse de l'Immobilier",
         "brand:wikidata": "Q102352527",
-        "brand:wikipedia": "fr:Bourse de l'Immobilier",
         "name": "Bourse de l'Immobilier",
         "office": "estate_agent"
       }
@@ -126,6 +125,19 @@
         "brand": "Brown & Merry",
         "brand:wikidata": "Q81859714",
         "name": "Brown & Merry",
+        "office": "estate_agent"
+      }
+    },
+    {
+      "displayName": "Buxton",
+      "id": "buxton-f2ceb3",
+      "locationSet": {
+        "include": ["au-vic.geojson"]
+      },
+      "tags": {
+        "brand": "Buxton",
+        "brand:wikidata": "Q106236116",
+        "name": "Buxton",
         "office": "estate_agent"
       }
     },
@@ -189,6 +201,27 @@
         "brand:wikidata": "Q1341765",
         "brand:wikipedia": "en:Engel & Völkers",
         "name": "Engel & Völkers",
+        "office": "estate_agent"
+      }
+    },
+    {
+      "displayName": "Falc Immobilien",
+      "id": "falcimmobilien-2b2e07",
+      "locationSet": {"include": ["de"]},
+      "tags": {
+        "brand": "Falc Immobilien",
+        "name": "Falc Immobilien",
+        "office": "estate_agent"
+      }
+    },
+    {
+      "displayName": "Fletchers",
+      "id": "fletchers-d66f4e",
+      "locationSet": {"include": ["au"]},
+      "tags": {
+        "brand": "Fletchers",
+        "brand:wikidata": "Q106236137",
+        "name": "Fletchers",
         "office": "estate_agent"
       }
     },
@@ -288,6 +321,17 @@
         "brand:wikidata": "Q5655056",
         "brand:wikipedia": "en:Harcourts International",
         "name": "Harcourts",
+        "office": "estate_agent"
+      }
+    },
+    {
+      "displayName": "Jellis Craig",
+      "id": "jelliscraig-d66f4e",
+      "locationSet": {"include": ["au"]},
+      "tags": {
+        "brand": "Jellis Craig",
+        "brand:wikidata": "Q106236086",
+        "name": "Jellis Craig",
         "office": "estate_agent"
       }
     },
@@ -408,17 +452,6 @@
       }
     },
     {
-      "displayName": "McEnery Residential",
-      "id": "mceneryresidential-aec949",
-      "locationSet": {"include": ["us"]},
-      "tags": {
-        "brand": "McEnery Residential",
-        "name": "McEnery Residential",
-        "office": "estate_agent",
-        "operator": "The McEnery Company"
-      }
-    },
-    {
       "displayName": "McGrath",
       "id": "mcgrath-d66f4e",
       "locationSet": {"include": ["au"]},
@@ -426,6 +459,27 @@
         "brand": "McGrath",
         "brand:wikidata": "Q105290661",
         "name": "McGrath",
+        "office": "estate_agent"
+      }
+    },
+    {
+      "displayName": "McMakler",
+      "id": "mcmakler-2b2e07",
+      "locationSet": {"include": ["de"]},
+      "tags": {
+        "brand": "McMakler",
+        "name": "McMakler",
+        "office": "estate_agent"
+      }
+    },
+    {
+      "displayName": "Nelson Alexander",
+      "id": "nelsonalexander-d66f4e",
+      "locationSet": {"include": ["au"]},
+      "tags": {
+        "brand": "Nelson Alexander",
+        "brand:wikidata": "Q106236053",
+        "name": "Nelson Alexander",
         "office": "estate_agent"
       }
     },
@@ -540,6 +594,18 @@
         "brand": "Stags",
         "brand:wikidata": "Q91028631",
         "name": "Stags",
+        "office": "estate_agent"
+      }
+    },
+    {
+      "displayName": "Stéphane Plaza Immobilier",
+      "id": "stephaneplazaimmobilier-b7bc37",
+      "locationSet": {"include": ["fx"]},
+      "tags": {
+        "brand": "Stéphane Plaza Immobilier",
+        "brand:wikidata": "Q97368097",
+        "brand:wikipedia": "fr:Stéphane Plaza Immobilier",
+        "name": "Stéphane Plaza Immobilier",
         "office": "estate_agent"
       }
     },

@@ -27,6 +27,23 @@
   },
   "items": [
     {
+      "displayName": "50嵐",
+      "id": "50lan-7d270d",
+      "locationSet": {"include": ["tw"]},
+      "tags": {
+        "amenity": "cafe",
+        "brand": "50嵐",
+        "brand:en": "50 Lan",
+        "brand:wikipedia": "zh:五十嵐 (臺灣)",
+        "brand:zh": "50嵐",
+        "cuisine": "bubble_tea",
+        "name": "50嵐",
+        "name:en": "50 Lan",
+        "name:zh": "50嵐",
+        "takeaway": "yes"
+      }
+    },
+    {
       "displayName": "85°C",
       "id": "ef3f02-07c6ab",
       "locationSet": {"include": ["au", "us"]},
@@ -67,6 +84,20 @@
       }
     },
     {
+      "displayName": "aïda",
+      "id": "aida-42834c",
+      "locationSet": {"include": ["at"]},
+      "tags": {
+        "amenity": "cafe",
+        "brand": "aïda",
+        "brand:wikidata": "Q794636",
+        "brand:wikipedia": "de:Aida (Unternehmen)",
+        "cuisine": "coffee_shop",
+        "name": "aïda",
+        "takeaway": "yes"
+      }
+    },
+    {
       "displayName": "AMT Coffee",
       "id": "amtcoffee-ff9b1e",
       "locationSet": {"include": ["gb", "ie"]},
@@ -82,11 +113,15 @@
     },
     {
       "displayName": "Aroma",
-      "id": "aroma-e1ef51",
-      "locationSet": {"include": ["001"]},
+      "id": "aroma-5fc1d9",
+      "locationSet": {
+        "include": ["ca", "uk", "us"]
+      },
       "tags": {
         "amenity": "cafe",
         "brand": "Aroma",
+        "brand:wikidata": "Q2909872",
+        "brand:wikipedia": "en:Aroma Espresso Bar",
         "cuisine": "coffee_shop",
         "name": "Aroma",
         "takeaway": "yes"
@@ -192,8 +227,11 @@
     },
     {
       "displayName": "Bar Sport",
-      "id": "barsport-e1ef51",
-      "locationSet": {"include": ["001"]},
+      "id": "barsport-93bf5b",
+      "locationSet": {
+        "include": ["001"],
+        "exclude": ["cn"]
+      },
       "tags": {
         "amenity": "cafe",
         "brand": "Bar Sport",
@@ -348,8 +386,11 @@
     },
     {
       "displayName": "Café Amazon",
-      "id": "cafeamazon-e1ef51",
-      "locationSet": {"include": ["001"]},
+      "id": "cafeamazon-93bf5b",
+      "locationSet": {
+        "include": ["001"],
+        "exclude": ["cn"]
+      },
       "tags": {
         "amenity": "cafe",
         "brand": "Café Amazon",
@@ -362,8 +403,11 @@
     },
     {
       "displayName": "Cafe Coffee Day",
-      "id": "cafecoffeeday-e1ef51",
-      "locationSet": {"include": ["001"]},
+      "id": "cafecoffeeday-93bf5b",
+      "locationSet": {
+        "include": ["001"],
+        "exclude": ["cn"]
+      },
       "tags": {
         "amenity": "cafe",
         "brand": "Cafe Coffee Day",
@@ -487,8 +531,22 @@
     },
     {
       "displayName": "Caribou Coffee",
-      "id": "cariboucoffee-e1ef51",
-      "locationSet": {"include": ["001"]},
+      "id": "cariboucoffee-0acf95",
+      "locationSet": {
+        "include": [
+          "ae",
+          "ba",
+          "bh",
+          "eg",
+          "kw",
+          "om",
+          "qa",
+          "sa",
+          "tr",
+          "us"
+        ],
+        "exclude": ["cn"]
+      },
       "tags": {
         "amenity": "cafe",
         "brand": "Caribou Coffee",
@@ -541,6 +599,24 @@
         "brand:wikidata": "Q64827025",
         "cuisine": "bubble_tea",
         "name": "Coco",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "displayName": "CoCo都可",
+      "id": "cocofreshteaandjuice-60211c",
+      "locationSet": {
+        "include": ["cn", "hk", "tw"]
+      },
+      "tags": {
+        "amenity": "cafe",
+        "brand": "CoCo都可",
+        "brand:en": "CoCo Fresh Tea & Juice",
+        "brand:wikidata": "Q65084369",
+        "brand:wikipedia": "zh:CoCo都可",
+        "cuisine": "bubble_tea",
+        "name": "CoCo都可",
+        "name:en": "CoCo Fresh Tea & Juice",
         "takeaway": "yes"
       }
     },
@@ -1007,8 +1083,10 @@
     },
     {
       "displayName": "Hudsons Coffee",
-      "id": "hudsonscoffee-f4a76b",
-      "locationSet": {"include": ["au", "sg"]},
+      "id": "hudsonscoffee-f5c0bd",
+      "locationSet": {
+        "include": ["au", "nz", "sg"]
+      },
       "tags": {
         "amenity": "cafe",
         "brand": "Hudsons Coffee",
@@ -1059,8 +1137,11 @@
     },
     {
       "displayName": "Joe & The Juice",
-      "id": "joeandthejuice-e1ef51",
-      "locationSet": {"include": ["001"]},
+      "id": "joeandthejuice-ff94db",
+      "locationSet": {
+        "include": ["001"],
+        "exclude": ["pl"]
+      },
       "tags": {
         "amenity": "cafe",
         "brand": "Joe & The Juice",
@@ -1073,8 +1154,11 @@
     },
     {
       "displayName": "Juan Valdez Café",
-      "id": "juanvaldezcafe-e1ef51",
-      "locationSet": {"include": ["001"]},
+      "id": "juanvaldezcafe-ff94db",
+      "locationSet": {
+        "include": ["001"],
+        "exclude": ["pl"]
+      },
       "tags": {
         "amenity": "cafe",
         "brand": "Juan Valdez Café",
@@ -1083,6 +1167,28 @@
         "cuisine": "coffee_shop",
         "name": "Juan Valdez Café",
         "shop": "coffee",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "displayName": "Kahve Dünyası",
+      "id": "kahvedunyasi-9278bc",
+      "locationSet": {
+        "include": [
+          "ae",
+          "kw",
+          "ro",
+          "sa",
+          "tr",
+          "uk"
+        ]
+      },
+      "tags": {
+        "amenity": "cafe",
+        "brand": "Kahve Dünyası",
+        "brand:wikidata": "Q28008050",
+        "cuisine": "coffee_shop",
+        "name": "Kahve Dünyası",
         "takeaway": "yes"
       }
     },
@@ -1117,8 +1223,11 @@
     },
     {
       "displayName": "Le Pain Quotidien",
-      "id": "lepainquotidien-e1ef51",
-      "locationSet": {"include": ["001"]},
+      "id": "lepainquotidien-ff94db",
+      "locationSet": {
+        "include": ["001"],
+        "exclude": ["pl"]
+      },
       "tags": {
         "amenity": "cafe",
         "brand": "Le Pain Quotidien",
@@ -1439,8 +1548,11 @@
     },
     {
       "displayName": "The Coffee Bean & Tea Leaf",
-      "id": "thecoffeebeanandtealeaf-e1ef51",
-      "locationSet": {"include": ["001"]},
+      "id": "thecoffeebeanandtealeaf-ff94db",
+      "locationSet": {
+        "include": ["001"],
+        "exclude": ["pl"]
+      },
       "tags": {
         "amenity": "cafe",
         "brand": "The Coffee Bean & Tea Leaf",
@@ -1500,8 +1612,11 @@
     },
     {
       "displayName": "Tim Hortons",
-      "id": "timhortons-e1ef51",
-      "locationSet": {"include": ["001"]},
+      "id": "timhortons-ff94db",
+      "locationSet": {
+        "include": ["001"],
+        "exclude": ["pl"]
+      },
       "tags": {
         "amenity": "cafe",
         "brand": "Tim Hortons",
@@ -1675,8 +1790,11 @@
     },
     {
       "displayName": "Yi Fang Tea",
-      "id": "yifangtea-e1ef51",
-      "locationSet": {"include": ["001"]},
+      "id": "yifangtea-3eb21f",
+      "locationSet": {
+        "include": ["001"],
+        "exclude": ["cn", "hk", "pl", "tw"]
+      },
       "matchNames": [
         "yi fang",
         "yi fang fruit tea",
@@ -1741,8 +1859,11 @@
     },
     {
       "displayName": "Домашняя кухня",
-      "id": "945764-e1ef51",
-      "locationSet": {"include": ["001"]},
+      "id": "945764-ff94db",
+      "locationSet": {
+        "include": ["001"],
+        "exclude": ["pl"]
+      },
       "tags": {
         "amenity": "cafe",
         "brand": "Домашняя кухня",
@@ -1778,8 +1899,11 @@
     },
     {
       "displayName": "Минутка",
-      "id": "90e0ec-e1ef51",
-      "locationSet": {"include": ["001"]},
+      "id": "90e0ec-ff94db",
+      "locationSet": {
+        "include": ["001"],
+        "exclude": ["pl"]
+      },
       "tags": {
         "amenity": "cafe",
         "brand": "Минутка",
@@ -1837,8 +1961,11 @@
     },
     {
       "displayName": "Уют",
-      "id": "1ed809-e1ef51",
-      "locationSet": {"include": ["001"]},
+      "id": "1ed809-ff94db",
+      "locationSet": {
+        "include": ["001"],
+        "exclude": ["pl"]
+      },
       "tags": {
         "amenity": "cafe",
         "brand": "Уют",
@@ -1861,8 +1988,11 @@
     },
     {
       "displayName": "Фортуна",
-      "id": "f14aa4-e1ef51",
-      "locationSet": {"include": ["001"]},
+      "id": "f14aa4-ff94db",
+      "locationSet": {
+        "include": ["001"],
+        "exclude": ["pl"]
+      },
       "tags": {
         "amenity": "cafe",
         "brand": "Фортуна",
@@ -2331,9 +2461,27 @@
       }
     },
     {
+      "displayName": "一点点",
+      "id": "alittletea-3300f4",
+      "locationSet": {"include": ["cn"]},
+      "tags": {
+        "amenity": "cafe",
+        "brand": "一点点",
+        "brand:en": "alittle-tea",
+        "brand:wikipedia": "zh:五十嵐 (臺灣)",
+        "cuisine": "bubble_tea",
+        "name": "一点点",
+        "name:en": "alittle-tea",
+        "takeaway": "yes"
+      }
+    },
+    {
       "displayName": "一芳水果茶",
-      "id": "yifangtea-aa349e",
-      "locationSet": {"include": ["cn", "tw"]},
+      "id": "yifangtea-60211c",
+      "locationSet": {
+        "include": ["cn", "hk", "tw"]
+      },
+      "matchNames": ["一芳", "一芳台湾水果茶"],
       "tags": {
         "amenity": "cafe",
         "brand": "一芳水果茶",
@@ -2361,6 +2509,22 @@
         "name": "上島珈琲店",
         "name:en": "Ueshima Coffee House",
         "name:ja": "上島珈琲店",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "displayName": "亚马逊咖啡",
+      "id": "cafeamazon-3300f4",
+      "locationSet": {"include": ["cn"]},
+      "tags": {
+        "amenity": "cafe",
+        "brand": "亚马逊咖啡",
+        "brand:wikidata": "Q43247503",
+        "brand:wikipedia": "en:Café Amazon",
+        "cuisine": "coffee_shop",
+        "name": "亚马逊咖啡",
+        "name:en": "Café Amazon",
+        "name:zh": "亚马逊咖啡",
         "takeaway": "yes"
       }
     },
@@ -2402,8 +2566,11 @@
     },
     {
       "displayName": "幸福堂",
-      "id": "xingfutang-e1ef51",
-      "locationSet": {"include": ["001"]},
+      "id": "xingfutang-ff94db",
+      "locationSet": {
+        "include": ["001"],
+        "exclude": ["pl"]
+      },
       "tags": {
         "amenity": "cafe",
         "brand": "幸福堂",
@@ -2509,6 +2676,36 @@
       }
     },
     {
+      "displayName": "茶百道",
+      "id": "chabaidao-3300f4",
+      "locationSet": {"include": ["cn"]},
+      "tags": {
+        "amenity": "cafe",
+        "brand": "茶百道",
+        "brand:en": "chabaidao",
+        "brand:zh": "茶百道",
+        "cuisine": "bubble_tea",
+        "name": "茶百道",
+        "name:en": "chabaidao",
+        "name:zh": "茶百道",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "displayName": "茶颜悦色",
+      "id": "b3b9a7-3300f4",
+      "locationSet": {"include": ["cn"]},
+      "tags": {
+        "amenity": "cafe",
+        "brand": "茶颜悦色",
+        "brand:wikidata": "Q60992994",
+        "brand:wikipedia": "zh:茶颜悦色",
+        "cuisine": "bubble_tea",
+        "name": "茶颜悦色",
+        "takeaway": "yes"
+      }
+    },
+    {
       "displayName": "蜜雪冰城",
       "id": "mixuebingcheng-3300f4",
       "locationSet": {"include": ["cn"]},
@@ -2525,16 +2722,19 @@
     },
     {
       "displayName": "貢茶 (Taiwan)",
-      "id": "10b985-7d270d",
+      "id": "gongcha-7d270d",
       "locationSet": {"include": ["tw"]},
       "tags": {
         "amenity": "cafe",
         "brand": "貢茶",
+        "brand:en": "Gong Cha",
         "brand:wikidata": "Q5581670",
         "brand:wikipedia": "zh:貢茶 (連鎖店)",
+        "brand:zh-Hant": "貢茶",
         "cuisine": "bubble_tea",
         "int_name": "Gong Cha",
         "name": "貢茶",
+        "name:en": "Gong Cha",
         "name:zh": "貢茶",
         "takeaway": "yes"
       }
@@ -2578,18 +2778,22 @@
     },
     {
       "displayName": "贡茶 (China)",
-      "id": "789149-3300f4",
+      "id": "gongcha-3300f4",
       "locationSet": {"include": ["cn"]},
       "tags": {
         "amenity": "cafe",
         "brand": "贡茶",
+        "brand:en": "Gong Cha",
         "brand:wikidata": "Q5581670",
         "brand:wikipedia": "zh:貢茶 (連鎖店)",
+        "brand:zh": "贡茶",
         "brand:zh-Hans": "贡茶",
         "brand:zh-Hant": "貢茶",
         "cuisine": "bubble_tea",
         "int_name": "Gong Cha",
         "name": "贡茶",
+        "name:en": "Gong Cha",
+        "name:zh": "贡茶",
         "name:zh-Hans": "贡茶",
         "name:zh-Hant": "貢茶",
         "takeaway": "yes"

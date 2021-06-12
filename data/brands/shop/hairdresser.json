@@ -17,7 +17,7 @@
         "^حلاق$"
       ],
       "named": [
-        "^(figaro|haarwerk|стиль|локон|шарм|fodrászat)$"
+        "^(figaro|haarwerk|the cutting room|стиль|локон|шарм|fodrászat)$"
       ]
     }
   },
@@ -106,6 +106,19 @@
         "brand": "Dessange",
         "brand:wikidata": "Q62979914",
         "name": "Dessange",
+        "shop": "hairdresser"
+      }
+    },
+    {
+      "displayName": "Drybar",
+      "id": "drybar-46af32",
+      "locationSet": {"include": ["ca", "us"]},
+      "tags": {
+        "brand": "Drybar",
+        "brand:wikidata": "Q18352685",
+        "brand:wikipedia": "en:Drybar",
+        "female": "yes",
+        "name": "Drybar",
         "shop": "hairdresser"
       }
     },
@@ -525,6 +538,16 @@
         "brand": "Top Hair",
         "brand:wikidata": "Q62523343",
         "name": "Top Hair",
+        "shop": "hairdresser"
+      }
+    },
+    {
+      "displayName": "TOPGUN",
+      "id": "topgun-634538",
+      "locationSet": {"include": ["kz", "ru"]},
+      "tags": {
+        "brand": "TOPGUN",
+        "name": "TOPGUN",
         "shop": "hairdresser"
       }
     },

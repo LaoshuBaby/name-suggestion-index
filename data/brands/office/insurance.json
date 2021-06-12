@@ -388,6 +388,16 @@
       }
     },
     {
+      "displayName": "Fidelidade",
+      "id": "fidelidade-b9b33f",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "brand": "Fidelidade",
+        "name": "Fidelidade",
+        "office": "insurance"
+      }
+    },
+    {
       "displayName": "Foyer",
       "id": "foyer-734c77",
       "locationSet": {"include": ["lu"]},
@@ -396,6 +406,19 @@
         "brand:wikidata": "Q1344573",
         "brand:wikipedia": "lb:Foyer",
         "name": "Foyer",
+        "office": "insurance"
+      }
+    },
+    {
+      "displayName": "Fred Loya Insurance",
+      "id": "fredloyainsurance-6b1e37",
+      "locationSet": {"include": ["us"]},
+      "matchNames": ["fred loya"],
+      "tags": {
+        "brand": "Fred Loya Insurance",
+        "brand:wikidata": "Q5495810",
+        "brand:wikipedia": "en:Fred Loya Insurance",
+        "name": "Fred Loya Insurance",
         "office": "insurance"
       }
     },
@@ -569,6 +592,17 @@
         "brand:wikidata": "Q1566111",
         "brand:wikipedia": "de:HUK-Coburg",
         "name": "HUK-Coburg",
+        "office": "insurance"
+      }
+    },
+    {
+      "displayName": "Insurance Navy Brokers",
+      "id": "insurancenavybrokers-6b1e37",
+      "locationSet": {"include": ["us"]},
+      "tags": {
+        "brand": "Insurance Navy Brokers",
+        "brand:wikidata": "Q106564453",
+        "name": "Insurance Navy Brokers",
         "office": "insurance"
       }
     },
@@ -1142,7 +1176,8 @@
         "brand:be": "Белдзяржстрах",
         "brand:en": "Belgosstrakh",
         "brand:ru": "Белгосстрах",
-        "brand:wikidata": "Q64606273",
+        "brand:wikidata": "Q6468822",
+        "brand:wikipedia": "be:Белдзяржстрах",
         "name": "Белгосстрах",
         "name:be": "Белдзяржстрах",
         "name:en": "Belgosstrakh",

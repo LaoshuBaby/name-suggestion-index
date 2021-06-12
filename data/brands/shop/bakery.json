@@ -92,6 +92,7 @@
       "locationSet": {"include": ["de"]},
       "tags": {
         "brand": "Bachmeier",
+        "brand:wikidata": "Q106823498",
         "name": "Bachmeier",
         "shop": "bakery"
       }
@@ -122,21 +123,10 @@
       }
     },
     {
-      "displayName": "Bäckerei Dreißig",
-      "id": "backereidreissig-3f448e",
-      "locationSet": {"include": ["de"]},
-      "tags": {
-        "brand": "Bäckerei Dreißig",
-        "brand:wikidata": "Q1018923",
-        "brand:wikipedia": "de:Bäckerei Dreißig",
-        "name": "Bäckerei Dreißig",
-        "shop": "bakery"
-      }
-    },
-    {
       "displayName": "Bäckerei Fuchs",
       "id": "backereifuchs-3f448e",
       "locationSet": {"include": ["de"]},
+      "matchNames": ["fuchs bäckerei"],
       "tags": {
         "brand": "Bäckerei Fuchs",
         "brand:wikidata": "Q42825993",
@@ -149,9 +139,44 @@
       "displayName": "Bäckerei Grimminger",
       "id": "backereigrimminger-3f448e",
       "locationSet": {"include": ["de"]},
+      "matchNames": [
+        "familienbäckerei grimminger",
+        "grimminger"
+      ],
       "tags": {
         "brand": "Bäckerei Grimminger",
+        "brand:wikidata": "Q106823533",
         "name": "Bäckerei Grimminger",
+        "shop": "bakery"
+      }
+    },
+    {
+      "displayName": "Bäckerei Happ",
+      "id": "backereihapp-3f448e",
+      "locationSet": {"include": ["de"]},
+      "matchNames": ["bäcker happ", "happ"],
+      "tags": {
+        "brand": "Bäckerei Happ",
+        "brand:wikidata": "Q60303275",
+        "brand:wikipedia": "de:Bäckerei Happ",
+        "name": "Bäckerei Happ",
+        "shop": "bakery"
+      }
+    },
+    {
+      "displayName": "Bäckerei Junge",
+      "id": "backereijunge-3f448e",
+      "locationSet": {"include": ["de"]},
+      "matchNames": [
+        "junge",
+        "junge bäckerei",
+        "junge die bäckerei"
+      ],
+      "tags": {
+        "brand": "Bäckerei Junge",
+        "brand:wikidata": "Q1561751",
+        "brand:wikipedia": "de:Con Pane",
+        "name": "Bäckerei Junge",
         "shop": "bakery"
       }
     },
@@ -172,6 +197,22 @@
       "tags": {
         "brand": "Bäckerei Schneider",
         "name": "Bäckerei Schneider",
+        "shop": "bakery"
+      }
+    },
+    {
+      "displayName": "Backhaus Nahrstedt",
+      "id": "backhausnahrstedt-3f448e",
+      "locationSet": {"include": ["de"]},
+      "matchNames": [
+        "bäckerei nahrstedt",
+        "nahrstedt"
+      ],
+      "tags": {
+        "brand": "Backhaus Nahrstedt",
+        "brand:wikidata": "Q798438",
+        "brand:wikipedia": "de:Backhaus Nahrstedt",
+        "name": "Backhaus Nahrstedt",
         "shop": "bakery"
       }
     },
@@ -275,6 +316,22 @@
       }
     },
     {
+      "displayName": "Barbarossa Bäckerei",
+      "id": "barbarossabackerei-3f448e",
+      "locationSet": {"include": ["de"]},
+      "matchNames": [
+        "barbarossa",
+        "barbarossa brotkultur"
+      ],
+      "tags": {
+        "brand": "Barbarossa Bäckerei",
+        "brand:wikidata": "Q807766",
+        "brand:wikipedia": "de:Barbarossa Bäckerei",
+        "name": "Barbarossa Bäckerei",
+        "shop": "bakery"
+      }
+    },
+    {
       "displayName": "Beechworth Bakery",
       "id": "beechworthbakery-c119fa",
       "locationSet": {"include": ["au"]},
@@ -337,6 +394,22 @@
       }
     },
     {
+      "displayName": "BrotHaus",
+      "id": "brothaus-3f448e",
+      "locationSet": {"include": ["de"]},
+      "matchNames": [
+        "bäckerei brothaus",
+        "brothaus cafe"
+      ],
+      "tags": {
+        "brand": "BrotHaus",
+        "brand:wikidata": "Q26951425",
+        "brand:wikipedia": "de:BrotHaus",
+        "name": "BrotHaus",
+        "shop": "bakery"
+      }
+    },
+    {
       "displayName": "Brumby's Bakeries",
       "id": "brumbysbakeries-c119fa",
       "locationSet": {"include": ["au"]},
@@ -365,6 +438,7 @@
       "locationSet": {"include": ["de"]},
       "tags": {
         "brand": "Büsch",
+        "brand:wikidata": "Q106823554",
         "name": "Büsch",
         "shop": "bakery"
       }
@@ -462,6 +536,19 @@
       }
     },
     {
+      "displayName": "Die Lohner's",
+      "id": "dielohners-3f448e",
+      "locationSet": {"include": ["de"]},
+      "matchNames": ["lohner's"],
+      "tags": {
+        "brand": "Die Lohner's",
+        "brand:wikidata": "Q105688772",
+        "brand:wikipedia": "de:Achim Lohner",
+        "name": "Die Lohner's",
+        "shop": "bakery"
+      }
+    },
+    {
       "displayName": "Ditsch",
       "id": "ditsch-3f448e",
       "locationSet": {"include": ["de"]},
@@ -469,8 +556,37 @@
       "tags": {
         "brand": "Ditsch",
         "brand:wikidata": "Q911573",
-        "brand:wikipedia": "en:Ditsch",
+        "brand:wikipedia": "de:Brezelbäckerei Ditsch",
         "name": "Ditsch",
+        "shop": "bakery"
+      }
+    },
+    {
+      "displayName": "Dreißig",
+      "id": "dreissig-3f448e",
+      "locationSet": {"include": ["de"]},
+      "matchNames": ["bäckerei dreißig"],
+      "tags": {
+        "brand": "Dreißig",
+        "brand:wikidata": "Q1018923",
+        "brand:wikipedia": "de:Bäckerei Dreißig",
+        "name": "Dreißig",
+        "shop": "bakery"
+      }
+    },
+    {
+      "displayName": "Emil Reimann",
+      "id": "emilreimann-3f448e",
+      "locationSet": {"include": ["de"]},
+      "matchNames": [
+        "bäckerei emil reimann",
+        "bäckerei reimann"
+      ],
+      "tags": {
+        "brand": "Emil Reimann",
+        "brand:wikidata": "Q15110332",
+        "brand:wikipedia": "de:Emil Reimann GmbH",
+        "name": "Emil Reimann",
         "shop": "bakery"
       }
     },
@@ -525,11 +641,40 @@
       }
     },
     {
+      "displayName": "Gilgen's",
+      "id": "gilgens-3f448e",
+      "locationSet": {"include": ["de"]},
+      "matchNames": [
+        "bäckerei gilgens",
+        "gilgens bäckerei"
+      ],
+      "tags": {
+        "brand": "Gilgen's",
+        "brand:wikidata": "Q1524314",
+        "brand:wikipedia": "de:Gilgen’s Tortenkutsche",
+        "name": "Gilgen's",
+        "shop": "bakery"
+      }
+    },
+    {
+      "displayName": "Glocken Bäckerei",
+      "id": "glockenbackerei-3f448e",
+      "locationSet": {"include": ["de"]},
+      "tags": {
+        "brand": "Glocken Bäckerei",
+        "brand:wikidata": "Q1531851",
+        "brand:wikipedia": "de:Glockenbäckerei",
+        "name": "Glocken Bäckerei",
+        "shop": "bakery"
+      }
+    },
+    {
       "displayName": "Goeken backen",
       "id": "goekenbacken-3f448e",
       "locationSet": {"include": ["de"]},
       "tags": {
         "brand": "Goeken backen",
+        "brand:wikidata": "Q106823580",
         "name": "Goeken backen",
         "shop": "bakery"
       }
@@ -584,6 +729,16 @@
       }
     },
     {
+      "displayName": "Haubis",
+      "id": "haubis-2e087b",
+      "locationSet": {"include": ["at"]},
+      "tags": {
+        "brand": "Haubis",
+        "name": "Haubis",
+        "shop": "bakery"
+      }
+    },
+    {
       "displayName": "Hert",
       "id": "hert-839c38",
       "locationSet": {"include": ["pl"]},
@@ -629,7 +784,11 @@
       "displayName": "Ihle",
       "id": "ihle-3f448e",
       "locationSet": {"include": ["de"]},
-      "matchNames": ["landbäckerei ihle"],
+      "matchNames": [
+        "bäckerei ihle",
+        "ihle bäckerei",
+        "landbäckerei ihle"
+      ],
       "tags": {
         "brand": "Ihle",
         "brand:wikidata": "Q1626371",
@@ -661,6 +820,19 @@
       }
     },
     {
+      "displayName": "İstanbul Halk Ekmek",
+      "id": "istanbulhalkekmek-a32269",
+      "locationSet": {"include": ["tr"]},
+      "matchNames": ["i̇he"],
+      "tags": {
+        "brand": "İstanbul Halk Ekmek",
+        "brand:wikidata": "Q6073041",
+        "brand:wikipedia": "tr:İstanbul Halk Ekmek",
+        "name": "İstanbul Halk Ekmek",
+        "shop": "bakery"
+      }
+    },
+    {
       "displayName": "Julie's Bakeshop",
       "id": "juliesbakeshop-b6c45f",
       "locationSet": {"include": ["ph"]},
@@ -684,6 +856,22 @@
       }
     },
     {
+      "displayName": "Kaisers Gute Backstube",
+      "id": "kaisersgutebackstube-3f448e",
+      "locationSet": {"include": ["de"]},
+      "matchNames": [
+        "kaisers",
+        "kaisers backstube"
+      ],
+      "tags": {
+        "brand": "Kaisers Gute Backstube",
+        "brand:wikidata": "Q15116031",
+        "brand:wikipedia": "de:Kaisers Gute Backstube",
+        "name": "Kaisers Gute Backstube",
+        "shop": "bakery"
+      }
+    },
+    {
       "displayName": "Kamps",
       "id": "kamps-3f448e",
       "locationSet": {"include": ["de"]},
@@ -693,6 +881,18 @@
         "brand:wikidata": "Q1723381",
         "brand:wikipedia": "de:Kamps (Unternehmen)",
         "name": "Kamps",
+        "shop": "bakery"
+      }
+    },
+    {
+      "displayName": "Klein’s Backstube",
+      "id": "kleinsbackstube-3f448e",
+      "locationSet": {"include": ["de"]},
+      "tags": {
+        "brand": "Klein’s Backstube",
+        "brand:wikidata": "Q15859675",
+        "brand:wikipedia": "de:Klein’s Backstube",
+        "name": "Klein’s Backstube",
         "shop": "bakery"
       }
     },
@@ -814,6 +1014,19 @@
       }
     },
     {
+      "displayName": "Malzers Backstube",
+      "id": "malzersbackstube-3f448e",
+      "locationSet": {"include": ["de"]},
+      "matchNames": ["malzers"],
+      "tags": {
+        "brand": "Malzers Backstube",
+        "brand:wikidata": "Q19278095",
+        "brand:wikipedia": "de:Detlef Malzers Backstube",
+        "name": "Malzers Backstube",
+        "shop": "bakery"
+      }
+    },
+    {
       "displayName": "Marie Blachère",
       "id": "marieblachere-731a34",
       "locationSet": {"include": ["fr"]},
@@ -822,6 +1035,19 @@
         "brand:wikidata": "Q62082410",
         "brand:wikipedia": "fr:Marie Blachère",
         "name": "Marie Blachère",
+        "shop": "bakery"
+      }
+    },
+    {
+      "displayName": "Martin Auer",
+      "id": "martinauer-2e087b",
+      "locationSet": {"include": ["at"]},
+      "matchNames": ["auer"],
+      "tags": {
+        "brand": "Martin Auer",
+        "brand:wikidata": "Q55523880",
+        "brand:wikipedia": "de:Martin Auer (Unternehmen)",
+        "name": "Martin Auer",
         "shop": "bakery"
       }
     },
@@ -846,6 +1072,22 @@
         "brand": "Mlinar",
         "brand:wikidata": "Q62082464",
         "name": "Mlinar",
+        "shop": "bakery"
+      }
+    },
+    {
+      "displayName": "Müller & Egerer",
+      "id": "mullerandegerer-3f448e",
+      "locationSet": {"include": ["de"]},
+      "matchNames": [
+        "müller egerer",
+        "müller und egerer"
+      ],
+      "tags": {
+        "brand": "Müller & Egerer",
+        "brand:wikidata": "Q64140618",
+        "brand:wikipedia": "de:Müller & Egerer Bäckerei und Konditorei",
+        "name": "Müller & Egerer",
         "shop": "bakery"
       }
     },
@@ -918,6 +1160,10 @@
       "displayName": "Pappert",
       "id": "pappert-3f448e",
       "locationSet": {"include": ["de"]},
+      "matchNames": [
+        "bäckerei pappert",
+        "papperts"
+      ],
       "tags": {
         "brand": "Pappert",
         "brand:wikidata": "Q28549952",
@@ -1056,6 +1302,22 @@
       }
     },
     {
+      "displayName": "Rischart",
+      "id": "rischart-3f448e",
+      "locationSet": {"include": ["de"]},
+      "matchNames": [
+        "max rischart",
+        "rischarts backhaus"
+      ],
+      "tags": {
+        "brand": "Rischart",
+        "brand:wikidata": "Q2154631",
+        "brand:wikipedia": "de:Rischart",
+        "name": "Rischart",
+        "shop": "bakery"
+      }
+    },
+    {
       "displayName": "Ronde des Pains",
       "id": "rondedespains-a38521",
       "locationSet": {"include": ["be", "fr"]},
@@ -1164,6 +1426,23 @@
       }
     },
     {
+      "displayName": "Stinges",
+      "id": "stinges-3f448e",
+      "locationSet": {"include": ["de"]},
+      "matchNames": [
+        "bäckerei stinges",
+        "landbäckerei stinges",
+        "stinges landbäckerei"
+      ],
+      "tags": {
+        "brand": "Stinges",
+        "brand:wikidata": "Q60478280",
+        "brand:wikipedia": "de:Landbäckerei Stinges",
+        "name": "Stinges",
+        "shop": "bakery"
+      }
+    },
+    {
       "displayName": "Ströck",
       "id": "strock-2e087b",
       "locationSet": {"include": ["at"]},
@@ -1200,6 +1479,10 @@
       "displayName": "von Allwörden",
       "id": "vonallworden-3f448e",
       "locationSet": {"include": ["de"]},
+      "matchNames": [
+        "allwörden",
+        "heinrich von allwörden"
+      ],
       "tags": {
         "brand": "von Allwörden",
         "brand:wikidata": "Q60411349",
@@ -1250,6 +1533,20 @@
       "tags": {
         "brand": "Woops!",
         "name": "Woops!",
+        "shop": "bakery"
+      }
+    },
+    {
+      "displayName": "Βενέτη",
+      "id": "veneti-ec42d9",
+      "locationSet": {"include": ["gr"]},
+      "tags": {
+        "alt_name": "Βενέτης",
+        "brand": "Βενέτη",
+        "brand:wikidata": "Q106776278",
+        "int_name": "Veneti",
+        "name": "Βενέτη",
+        "name:en": "Veneti",
         "shop": "bakery"
       }
     },

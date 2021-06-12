@@ -3,7 +3,7 @@
     "path": "brands/amenity/recycling",
     "exclude": {
       "generic": [
-        "^(bauhof|biotonne|glascontainer|recyclinghof|wertstoffhof)$",
+        "^(altglascontainer|bauhof|biotonne|glascontainer|recyclinghof|wertstoffhof)$",
         "^d[ée]ch[èe]tt?erie$",
         "^recycling$"
       ]
@@ -73,6 +73,16 @@
         "amenity": "recycling",
         "brand": "Punto Limpio",
         "name": "Punto Limpio"
+      }
+    },
+    {
+      "displayName": "Ressourcerie",
+      "id": "ressourcerie-247680",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "amenity": "recycling",
+        "brand": "Ressourcerie",
+        "name": "Ressourcerie"
       }
     },
     {

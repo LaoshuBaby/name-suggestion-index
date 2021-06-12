@@ -5,6 +5,9 @@
       "generic": [
         "^police$",
         "^пол[иі]кл[иі]н[иі]ка( №1)?$"
+      ],
+      "named": [
+        "(corpo forestale dello stato|polizia stradale)"
       ]
     }
   },
@@ -13,12 +16,13 @@
       "displayName": "Arma dei Carabinieri",
       "id": "armadeicarabinieri-f71f16",
       "locationSet": {"include": ["it"]},
+      "matchTags": ["operator/carabinieri"],
       "tags": {
         "amenity": "police",
         "operator": "Arma dei Carabinieri",
         "operator:short": "Carabinieri",
         "operator:wikidata": "Q54852",
-        "operator:wikipedia": "en:Carabinieri"
+        "operator:wikipedia": "it:Arma dei Carabinieri"
       }
     },
     {
@@ -228,17 +232,6 @@
       }
     },
     {
-      "displayName": "Corpo Forestale dello Stato",
-      "id": "corpoforestaledellostato-f71f16",
-      "locationSet": {"include": ["it"]},
-      "tags": {
-        "amenity": "police",
-        "operator": "Corpo Forestale dello Stato",
-        "operator:wikidata": "Q1134650",
-        "operator:wikipedia": "it:Corpo forestale dello Stato"
-      }
-    },
-    {
       "displayName": "Cuerpo de Agentes de Control Municipal",
       "id": "cuerpodeagentesdecontrolmunicipal-210a6b",
       "locationSet": {"include": ["ec"]},
@@ -380,7 +373,7 @@
     },
     {
       "displayName": "Dyfed–Powys Police",
-      "id": "e51994-03a321",
+      "id": "dyfedpowyspolice-03a321",
       "locationSet": {"include": ["gb-wls"]},
       "tags": {
         "amenity": "police",
@@ -464,7 +457,7 @@
         "operator": "Gendarmerie nationale",
         "operator:ar": "الدرك الوطني",
         "operator:wikidata": "Q3100409",
-        "operator:wikipedia": "fr:Gendarmerie nationale algérienne"
+        "operator:wikipedia": "fr:Gendarmerie nationale (Algérie)"
       }
     },
     {
@@ -529,6 +522,15 @@
       }
     },
     {
+      "displayName": "Guardia Nacional",
+      "id": "guardianacional-793396",
+      "locationSet": {"include": ["mx"]},
+      "tags": {
+        "amenity": "police",
+        "operator": "Guardia Nacional"
+      }
+    },
+    {
       "displayName": "Guardia Nacional Bolivariana de Venezuela",
       "id": "guardianacionalbolivarianadevenezuela-3383b4",
       "locationSet": {"include": ["ve"]},
@@ -558,13 +560,14 @@
     },
     {
       "displayName": "Hampshire Constabulary",
-      "id": "hampshireconstabulary-193ebb",
+      "id": "hampshireconstabulary-01cccd",
       "locationSet": {
-        "include": [
-          "gb-iow.geojson",
-          "gb-south-central.geojson"
-        ]
+        "include": ["gb-south-central.geojson"]
       },
+      "matchNames": [
+        "iow police",
+        "isle of wight police"
+      ],
       "tags": {
         "amenity": "police",
         "operator": "Hampshire Constabulary",
@@ -660,6 +663,24 @@
       }
     },
     {
+      "displayName": "Kantonspolizei Bern",
+      "id": "kantonspolizeibern-d00fc1",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "amenity": "police",
+        "operator": "Kantonspolizei Bern"
+      }
+    },
+    {
+      "displayName": "Kantonspolizei Schwyz",
+      "id": "kantonspolizeischwyz-d00fc1",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "amenity": "police",
+        "operator": "Kantonspolizei Schwyz"
+      }
+    },
+    {
       "displayName": "Kantonspolizei Thurgau",
       "id": "kantonspolizeithurgau-e64270",
       "locationSet": {"include": ["ch"]},
@@ -671,11 +692,13 @@
     },
     {
       "displayName": "Kantonspolizei Zürich",
-      "id": "kantonspolizeizurich-d00fc1",
-      "locationSet": {"include": ["001"]},
+      "id": "kantonspolizeizurich-e64270",
+      "locationSet": {"include": ["ch"]},
       "tags": {
         "amenity": "police",
-        "operator": "Kantonspolizei Zürich"
+        "operator": "Kantonspolizei Zürich",
+        "operator:wikidata": "Q1728099",
+        "operator:wikipedia": "de:Kantonspolizei Zürich"
       }
     },
     {
@@ -689,6 +712,18 @@
         "operator": "Kent Police",
         "operator:wikidata": "Q3195294",
         "operator:wikipedia": "en:Kent Police"
+      }
+    },
+    {
+      "displayName": "Kerala Police",
+      "id": "keralapolice-d0526a",
+      "locationSet": {"include": ["in"]},
+      "tags": {
+        "amenity": "police",
+        "operator": "Kerala Police",
+        "operator:ml": "കേരള പോലീസ്",
+        "operator:wikidata": "Q17064579",
+        "operator:wikipedia": "ml:കേരള പോലീസ്"
       }
     },
     {
@@ -1084,8 +1119,10 @@
     },
     {
       "displayName": "New York Police Department",
-      "id": "newyorkpolicedepartment-04d52e",
-      "locationSet": {"include": ["us"]},
+      "id": "newyorkpolicedepartment-a48e36",
+      "locationSet": {
+        "include": ["new_york_city.geojson"]
+      },
       "matchNames": [
         "new york city police department"
       ],
@@ -1096,6 +1133,18 @@
         "operator:short": "NYPD",
         "operator:wikidata": "Q328473",
         "operator:wikipedia": "en:New York City Police Department"
+      }
+    },
+    {
+      "displayName": "New Zealand Police",
+      "id": "newzealandpolice-6de575",
+      "locationSet": {"include": ["nz"]},
+      "matchNames": ["nz police"],
+      "tags": {
+        "amenity": "police",
+        "operator": "New Zealand Police",
+        "operator:wikidata": "Q12063956",
+        "operator:wikipedia": "en:New Zealand Police"
       }
     },
     {
@@ -1351,6 +1400,17 @@
       }
     },
     {
+      "displayName": "Policía de Santiago del Estero",
+      "id": "policiadesantiagodelestero-e73d55",
+      "locationSet": {"include": ["ar"]},
+      "tags": {
+        "amenity": "police",
+        "operator": "Policía de Santiago del Estero",
+        "operator:wikidata": "Q9061412",
+        "operator:wikipedia": "es:Policía de Santiago del Estero"
+      }
+    },
+    {
       "displayName": "Polícia de Segurança Pública (Portugal)",
       "id": "policiadesegurancapublica-269632",
       "locationSet": {"include": ["pt"]},
@@ -1406,11 +1466,13 @@
     },
     {
       "displayName": "Policía Local",
-      "id": "policialocal-d00fc1",
-      "locationSet": {"include": ["001"]},
+      "id": "policialocal-dd66e9",
+      "locationSet": {"include": ["es"]},
       "tags": {
         "amenity": "police",
-        "operator": "Policía Local"
+        "operator": "Policía Local",
+        "operator:wikidata": "Q1507792",
+        "operator:wikipedia": "es:Policía local de España"
       }
     },
     {
@@ -1912,7 +1974,7 @@
         "amenity": "police",
         "operator": "Polizei Berlin",
         "operator:wikidata": "Q328480",
-        "operator:wikipedia": "de:Der Polizeipräsident in Berlin"
+        "operator:wikipedia": "de:Polizei Berlin"
       }
     },
     {
@@ -2060,18 +2122,10 @@
       }
     },
     {
-      "displayName": "Polizia",
-      "id": "polizia-f71f16",
-      "locationSet": {"include": ["it"]},
-      "tags": {
-        "amenity": "police",
-        "operator": "Polizia"
-      }
-    },
-    {
       "displayName": "Polizia di Stato",
       "id": "poliziadistato-f71f16",
       "locationSet": {"include": ["it"]},
+      "matchNames": ["polizia"],
       "tags": {
         "amenity": "police",
         "operator": "Polizia di Stato",
@@ -2085,28 +2139,21 @@
       "locationSet": {"include": ["it"]},
       "tags": {
         "amenity": "police",
-        "operator": "Polizia Locale"
+        "operator": "Polizia Locale",
+        "operator:wikidata": "Q61634147",
+        "operator:wikipedia": "it:Polizia locale (Italia)"
       }
     },
     {
       "displayName": "Polizia Municipale",
       "id": "poliziamunicipale-f71f16",
       "locationSet": {"include": ["it"]},
+      "matchNames": ["vigili urbani"],
       "tags": {
         "amenity": "police",
-        "operator": "Polizia Municipale"
-      }
-    },
-    {
-      "displayName": "Polizia Stradale",
-      "id": "poliziastradale-f71f16",
-      "locationSet": {"include": ["it"]},
-      "note": "Highway Patrol; Subgroup of Polizia di Stato",
-      "tags": {
-        "amenity": "police",
-        "operator": "Polizia Stradale",
-        "operator:wikidata": "Q3907573",
-        "operator:wikipedia": "it:Polizia stradale"
+        "operator": "Polizia Municipale",
+        "operator:wikidata": "Q1431981",
+        "operator:wikipedia": "it:Polizia municipale"
       }
     },
     {
@@ -2290,11 +2337,13 @@
     },
     {
       "displayName": "Stadtpolizei Zürich",
-      "id": "stadtpolizeizurich-d00fc1",
-      "locationSet": {"include": ["001"]},
+      "id": "stadtpolizeizurich-e64270",
+      "locationSet": {"include": ["ch"]},
       "tags": {
         "amenity": "police",
-        "operator": "Stadtpolizei Zürich"
+        "operator": "Stadtpolizei Zürich",
+        "operator:wikidata": "Q2327949",
+        "operator:wikipedia": "de:Stadtpolizei Zürich"
       }
     },
     {

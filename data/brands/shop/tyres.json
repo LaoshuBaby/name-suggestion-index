@@ -7,7 +7,8 @@
         "^(вулканизация|шиномонтаж)$",
         "^borrachar[ií]a$",
         "^gomer[ií]a$",
-        "^vulcanizing( shop)?$"
+        "^vulcanizing( shop)?$",
+        "vulcanisateur"
       ]
     }
   },
@@ -190,6 +191,18 @@
       }
     },
     {
+      "displayName": "Pirelli",
+      "id": "pirelli-1d5291",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "brand": "Pirelli",
+        "brand:wikidata": "Q207770",
+        "brand:wikipedia": "en:Pirelli",
+        "name": "Pirelli",
+        "shop": "tyres"
+      }
+    },
+    {
       "displayName": "Pneuhage",
       "id": "pneuhage-24681a",
       "locationSet": {"include": ["de"]},
@@ -209,6 +222,18 @@
         "brand": "Quick Reifendiscount",
         "brand:wikidata": "Q100780633",
         "name": "Quick Reifendiscount",
+        "shop": "tyres"
+      }
+    },
+    {
+      "displayName": "reifen.com",
+      "id": "reifencom-24681a",
+      "locationSet": {"include": ["de"]},
+      "tags": {
+        "brand": "reifen.com",
+        "brand:wikidata": "Q19840890",
+        "brand:wikipedia": "de:Reifencom",
+        "name": "reifen.com",
         "shop": "tyres"
       }
     },

@@ -21,19 +21,33 @@
       }
     },
     {
+      "displayName": "Alaska Marine Highway",
+      "id": "alaskamarinehighway-06fda1",
+      "locationSet": {"include": ["ca", "us"]},
+      "matchNames": ["alask marine highway"],
+      "tags": {
+        "network": "Alaska Marine Highway",
+        "network:wikidata": "Q801878",
+        "network:wikipedia": "en:Alaska Marine Highway",
+        "route": "ferry"
+      }
+    },
+    {
       "displayName": "BC Ferries",
-      "id": "bcferries-95f6e9",
-      "locationSet": {"include": ["001"]},
+      "id": "bcferries-a57b87",
+      "locationSet": {"include": ["ca"]},
       "tags": {
         "network": "BC Ferries",
+        "network:wikidata": "Q795723",
+        "network:wikipedia": "en:BC Ferries",
         "route": "ferry"
       }
     },
     {
       "displayName": "Berliner Verkehrsbetriebe",
-      "id": "verkehrsverbundberlinbrandenburg-8d6543",
+      "id": "verkehrsverbundberlinbrandenburg-88af5a",
       "locationSet": {
-        "include": ["de-berlin.geojson"]
+        "include": [[13.42, 52.5, 26]]
       },
       "tags": {
         "network": "Verkehrsverbund Berlin-Brandenburg",
@@ -44,6 +58,17 @@
         "operator:short": "BVG",
         "operator:wikidata": "Q99633",
         "operator:wikipedia": "de:Berliner Verkehrsbetriebe",
+        "route": "ferry"
+      }
+    },
+    {
+      "displayName": "British Columbia Ministry of Transportation",
+      "id": "britishcolumbiaministryoftransportation-a57b87",
+      "locationSet": {"include": ["ca"]},
+      "tags": {
+        "network": "British Columbia Ministry of Transportation",
+        "network:wikidata": "Q4969732",
+        "network:wikipedia": "en:British Columbia Ministry of Transportation and Infrastructure",
         "route": "ferry"
       }
     },
@@ -107,6 +132,15 @@
       }
     },
     {
+      "displayName": "Mistral",
+      "id": "mistral-15832c",
+      "locationSet": {"include": ["fx"]},
+      "tags": {
+        "network": "Mistral",
+        "route": "ferry"
+      }
+    },
+    {
       "displayName": "NY Waterway",
       "id": "nywaterway-0e8a7e",
       "locationSet": {"include": ["us"]},
@@ -124,6 +158,7 @@
       "tags": {
         "network": "Réseau Mistral",
         "network:wikidata": "Q3456576",
+        "network:wikipedia": "fr:Réseau Mistral",
         "route": "ferry"
       }
     },
@@ -166,6 +201,7 @@
       "tags": {
         "network": "SL",
         "network:wikidata": "Q970452",
+        "network:wikipedia": "sv:Storstockholms Lokaltrafik",
         "route": "ferry"
       }
     },
@@ -183,8 +219,10 @@
     },
     {
       "displayName": "Staten Island Ferry",
-      "id": "statenislandferry-0e8a7e",
-      "locationSet": {"include": ["us"]},
+      "id": "statenislandferry-732c9d",
+      "locationSet": {
+        "include": ["new_york_city.geojson"]
+      },
       "tags": {
         "network": "Staten Island Ferry",
         "network:wikidata": "Q1048582",
@@ -240,9 +278,9 @@
     },
     {
       "displayName": "Verkehrsbetrieb Potsdam",
-      "id": "verkehrsverbundberlinbrandenburg-0b62ba",
+      "id": "verkehrsverbundberlinbrandenburg-3b5620",
       "locationSet": {
-        "include": ["de-bb-potsdam.geojson"]
+        "include": [[13.045, 52.428, 12]]
       },
       "tags": {
         "network": "Verkehrsverbund Berlin-Brandenburg",
@@ -297,6 +335,19 @@
         "network": "Waxholmsbolaget",
         "network:wikidata": "Q7975717",
         "network:wikipedia": "sv:Waxholmsbolaget",
+        "route": "ferry"
+      }
+    },
+    {
+      "displayName": "青岛轮渡",
+      "id": "qingdaoferry-a57b87",
+      "locationSet": {"include": ["ca"]},
+      "tags": {
+        "network": "青岛轮渡",
+        "network:en": "Qingdao Ferry",
+        "network:wikidata": "Q15902919",
+        "network:wikipedia": "zh:青岛轮渡",
+        "network:zh": "青岛轮渡",
         "route": "ferry"
       }
     }

@@ -18,8 +18,11 @@
     },
     {
       "displayName": "Parc de vaccination",
-      "id": "parcdevaccination-844bc2",
-      "locationSet": {"include": ["001"]},
+      "id": "parcdevaccination-5e7376",
+      "locationSet": {
+        "include": ["001"],
+        "exclude": ["cn", "pl"]
+      },
       "tags": {
         "amenity": "animal_shelter",
         "brand": "Parc de vaccination",

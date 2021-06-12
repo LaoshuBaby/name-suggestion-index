@@ -16,7 +16,7 @@
       "matchNames": ["tarifverbund a-welle"],
       "tags": {
         "network": "A-Welle",
-        "network:wikidata": "Q1233212",
+        "network:wikidata": "Q105637491",
         "network:wikipedia": "de:Tarifverbund A-Welle",
         "route": "train"
       }
@@ -55,9 +55,14 @@
     },
     {
       "displayName": "ARR",
-      "id": "arr-44bbb3",
-      "locationSet": {"include": ["001"]},
-      "tags": {"network": "ARR", "route": "train"}
+      "id": "arr-267caf",
+      "locationSet": {"include": ["us-ak"]},
+      "tags": {
+        "network": "ARR",
+        "network:wikidata": "Q1235460",
+        "network:wikipedia": "en:Alaska Railroad",
+        "route": "train"
+      }
     },
     {
       "displayName": "Augsburger Verkehrs- und Tarifverbund",
@@ -555,6 +560,28 @@
       }
     },
     {
+      "displayName": "GO Transit",
+      "id": "gotransit-11f910",
+      "locationSet": {"include": ["ca"]},
+      "tags": {
+        "network": "GO Transit",
+        "network:wikidata": "Q1357727",
+        "network:wikipedia": "en:GO Transit",
+        "route": "train"
+      }
+    },
+    {
+      "displayName": "Go-Op",
+      "id": "goop-18208c",
+      "locationSet": {"include": ["gb-eng"]},
+      "tags": {
+        "network": "Go-Op",
+        "network:wikidata": "Q16250791",
+        "network:wikipedia": "en:Go-op (train operating company)",
+        "route": "train"
+      }
+    },
+    {
       "displayName": "Großraum-Verkehr Hannover",
       "id": "grossraumverkehrhannover-da20e0",
       "locationSet": {"include": ["de"]},
@@ -808,8 +835,10 @@
     },
     {
       "displayName": "MBTA",
-      "id": "mbta-012d27",
-      "locationSet": {"include": ["us"]},
+      "id": "mbta-a0abcc",
+      "locationSet": {
+        "include": [[-71, 42, 100]]
+      },
       "matchNames": [
         "massachusetts bay transportation authority"
       ],
@@ -1063,15 +1092,6 @@
         "network": "NJ Transit",
         "network:wikidata": "Q498553",
         "network:wikipedia": "en:NJ Transit",
-        "route": "train"
-      }
-    },
-    {
-      "displayName": "Noordelijke Treindiensten",
-      "id": "noordelijketreindiensten-ba45e2",
-      "locationSet": {"include": ["de", "nl"]},
-      "tags": {
-        "network": "Noordelijke Treindiensten",
         "route": "train"
       }
     },
@@ -1441,6 +1461,8 @@
       "locationSet": {"include": ["au"]},
       "tags": {
         "network": "Sydney Trains",
+        "network:wikidata": "Q7660181",
+        "network:wikipedia": "en:Sydney Trains",
         "route": "train"
       }
     },
@@ -1699,6 +1721,18 @@
       }
     },
     {
+      "displayName": "TR-railway",
+      "id": "trrailway-03bf1d",
+      "locationSet": {
+        "include": ["001"],
+        "exclude": ["cn", "hk", "tw"]
+      },
+      "tags": {
+        "network": "TR-railway",
+        "route": "train"
+      }
+    },
+    {
       "displayName": "Transilien",
       "id": "transilien-46b9eb",
       "locationSet": {"include": ["fx"]},
@@ -1715,6 +1749,8 @@
       "locationSet": {"include": ["au"]},
       "tags": {
         "network": "Translink",
+        "network:wikidata": "Q7833625",
+        "network:wikipedia": "en:TransLink (Queensland)",
         "route": "train"
       }
     },
@@ -2033,10 +2069,13 @@
     },
     {
       "displayName": "Προαστιακός Αθήνας",
-      "id": "cad32c-44bbb3",
-      "locationSet": {"include": ["001"]},
+      "id": "proastiakos-055993",
+      "locationSet": {"include": ["gr"]},
       "tags": {
         "network": "Προαστιακός Αθήνας",
+        "network:en": "Proastiakos",
+        "network:wikidata": "Q18176333",
+        "network:wikipedia": "el:Προαστιακός σιδηρόδρομος Αθήνας",
         "route": "train"
       }
     },

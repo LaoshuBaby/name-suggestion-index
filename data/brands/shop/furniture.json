@@ -320,8 +320,8 @@
     },
     {
       "displayName": "Dänisches Bettenlager",
-      "id": "danischesbettenlager-bc2533",
-      "locationSet": {"include": ["at", "de"]},
+      "id": "danischesbettenlager-29dff1",
+      "locationSet": {"include": ["de"]},
       "tags": {
         "brand": "Dänisches Bettenlager",
         "brand:wikidata": "Q138913",
@@ -350,6 +350,17 @@
         "brand:wikidata": "Q5204927",
         "brand:wikipedia": "en:DFS Furniture",
         "name": "DFS",
+        "shop": "furniture"
+      }
+    },
+    {
+      "displayName": "Domayne",
+      "id": "domayne-0da980",
+      "locationSet": {"include": ["au"]},
+      "tags": {
+        "brand": "Domayne",
+        "brand:wikidata": "Q106224590",
+        "name": "Domayne",
         "shop": "furniture"
       }
     },
@@ -525,7 +536,7 @@
     },
     {
       "displayName": "İstikbal",
-      "id": "e58f54-a88d0c",
+      "id": "istikbal-a88d0c",
       "locationSet": {"include": ["tr"]},
       "tags": {
         "brand": "İstikbal",
@@ -550,13 +561,28 @@
     },
     {
       "displayName": "JYSK",
-      "id": "jysk-12c613",
-      "locationSet": {"include": ["001"]},
+      "id": "jysk-646aed",
+      "locationSet": {
+        "include": ["001"],
+        "exclude": ["de"]
+      },
+      "matchNames": ["dänisches bettenlager"],
       "tags": {
         "brand": "JYSK",
         "brand:wikidata": "Q138913",
         "brand:wikipedia": "en:Jysk",
         "name": "JYSK",
+        "shop": "furniture"
+      }
+    },
+    {
+      "displayName": "Kelebek",
+      "id": "kelebek-12c613",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "brand": "Kelebek",
+        "brand:wikidata": "Q28729960",
+        "name": "Kelebek",
         "shop": "furniture"
       }
     },
@@ -735,6 +761,17 @@
       }
     },
     {
+      "displayName": "Mondi",
+      "id": "mondi-a88d0c",
+      "locationSet": {"include": ["tr"]},
+      "tags": {
+        "brand": "Mondi",
+        "brand:wikidata": "Q106803578",
+        "name": "Mondi",
+        "shop": "furniture"
+      }
+    },
+    {
       "displayName": "Monsieur Meuble",
       "id": "monsieurmeuble-18f673",
       "locationSet": {"include": ["fr"]},
@@ -754,6 +791,18 @@
         "brand": "Multipolster",
         "brand:wikidata": "Q99641150",
         "name": "Multipolster",
+        "shop": "furniture"
+      }
+    },
+    {
+      "displayName": "Nick Scali",
+      "id": "nickscali-0da980",
+      "locationSet": {"include": ["au"]},
+      "tags": {
+        "brand": "Nick Scali",
+        "brand:wikidata": "Q17053453",
+        "brand:wikipedia": "en:Nick Scali Furniture",
+        "name": "Nick Scali",
         "shop": "furniture"
       }
     },
@@ -912,6 +961,17 @@
       }
     },
     {
+      "displayName": "Seats and Sofas",
+      "id": "seatsandsofas-29dff1",
+      "locationSet": {"include": ["de"]},
+      "tags": {
+        "brand": "Seats and Sofas",
+        "brand:wikidata": "Q107113639",
+        "name": "Seats and Sofas",
+        "shop": "furniture"
+      }
+    },
+    {
       "displayName": "Sharps",
       "id": "sharps-5a41a5",
       "locationSet": {"include": ["gb"]},
@@ -1035,6 +1095,16 @@
       "tags": {
         "brand": "Пинскдрев",
         "name": "Пинскдрев",
+        "shop": "furniture"
+      }
+    },
+    {
+      "displayName": "ТриЯ",
+      "id": "484c97-e999c2",
+      "locationSet": {"include": ["ru"]},
+      "tags": {
+        "brand": "ТриЯ",
+        "name": "ТриЯ",
         "shop": "furniture"
       }
     },
