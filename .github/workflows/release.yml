@@ -3,14 +3,13 @@
 
 name: release
 
-env:
-  TZ: Asia/Shanghai
-
 on:
   schedule:
-    - cron: "0 22 * * *"  # scheduled at 06:00 (UTC+8) everyday
-  workflow_dispatch:
-
+    - cron: "0 3 * * *"  # scheduled at 06:00 (UTC+8) everyday
+    # NY city in UTC-5 will be 22pm
+    # London in UTC will be 3am
+    # Beijing in UTC+8 will be 11am （Aus at 12am）
+    
 jobs:
   build:
 
@@ -26,8 +25,9 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: ${{ matrix.node-version }}
-    - run: npm run wikidata
     - run: npm run dist
+    - run: npm run wikidata
+
 
     - name: Update dist folder to repository
       env:
