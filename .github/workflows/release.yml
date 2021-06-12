@@ -4,8 +4,9 @@
 name: release
 
 on:
+  workflow_dispatch:
   schedule:
-    - cron: "0 3 * * 7"  # scheduled at 06:00 (UTC+8) every sunday
+    - cron: "0 3 * * 6"  # scheduled at 06:00 (UTC+8) every sunday
     # NY city in UTC-5 will be 22pm
     # London in UTC will be 3am
     # Beijing in UTC+8 will be 11am （Aus at 12am）
@@ -17,24 +18,24 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [10.x, 12.x, 14.x, 16.x]
+        node-version: [16.x]
 
     steps:
+    
+    - name: Init
     - uses: actions/checkout@v2
-    - name: Use Node.js ${{ matrix.node-version }}
+    
+    - name: Run dist and wikidata
       uses: actions/setup-node@v1
       with:
         node-version: ${{ matrix.node-version }}
     - run: npm run dist
     - run: npm run wikidata
 
-
     - name: Update dist folder to repository
       env:
-        # 仓库用户名
-        REPO_USERNAME: "LaoshuBaby"
-        # GitHub Pages仓库名
-        DIST_REPO: "name-suggestion-index"
+        REPO_USERNAME: "LaoshuBaby" # 仓库用户名
+        DIST_REPO: "name-suggestion-index" # GitHub Pages仓库名
         # GitHub Token
         GITHUB_TOKEN: ${{ secrets.G_TOKEN }}
       run: |
@@ -42,4 +43,4 @@ jobs:
         git config --global user.name "GitHub Action"
         cd dist && git init && git add .
         git commit -m "GitHub Actions Auto Builder at $(date +'%Y-%m-%d %H:%M:%S')"
-        git push --force --quiet "https://$GITHUB_TOKEN@github.com/$REPO_USERNAME/$DIST_REPO.git" master:master
+        git push --force --quiet "https://$GITHUB_TOKEN@github.com/$REPO_USERNAME/$DIST_REPO.git" main:main
