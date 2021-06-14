@@ -38,6 +38,7 @@ jobs:
         # GitHub Token
         GITHUB_TOKEN: ${{ secrets.G_TOKEN }}
       run: |
+        git config --global init.defaultBranch "main"
         git config --global user.email "keaitianxinmail@qq.com"
         git config --global user.name "LaoshuBaby"
         cd dist && git init && git add .
