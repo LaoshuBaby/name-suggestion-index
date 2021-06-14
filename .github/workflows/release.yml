@@ -15,15 +15,21 @@ jobs:
   build:
 
     runs-on: ubuntu-latest
+    
+    strategy:
+      matrix:
+        node-version: [10.x, 12.x, 14.x, 16.x]
+    # Just to test run command‘s action， will delete martix in final version of release.yml
+    
     steps:
     
     - name: Init
       uses: actions/checkout@v2
     
-    - name: Run dist and wikidata
+    - name: Run dist and wikidata with node${{ matrix.node-version }}
       uses: actions/setup-node@v1
       with:
-        node-version: 16.x
+        node-version: ${{ matrix.node-version }}
     - run: npm install
     - run: npm run dist
     #- run: npm run wikidata
