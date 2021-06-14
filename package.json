@@ -68,19 +68,19 @@
     }
   },
   "scripts": {
-    "all": "run-s build dist",
+    "all": "npm-run-all -s build dist",
     "appbuild": "npm run docbuild",
-    "dist": "run-s dist:version dist:files dist:javascript",
+    "dist": "npm-run-all -s dist:version dist:files dist:javascript",
     "dist:files": "node scripts/dist_files.js",
     "dist:javascript": "rollup -c",
     "dist:version": "node scripts/dist_version.js",
     "docbuild": "npx parcel build './app/index.html' --target 'nsiguide' --detailed-report 0 --no-source-maps --no-content-hash",
-    "build": "run-s build:features build:index",
+    "build": "npm-run-all -s build:features build:index",
     "build:features": "node scripts/build_features.js",
     "build:index": "node scripts/build_index.js",
     "jest": "jest --coverage",
     "lint": "eslint scripts/*.js lib/*.js",
-    "test": "run-s lint build jest",
+    "test": "npm-run-all -s lint build jest",
     "validate": "node scripts/validate.js",
     "wikicheck": "node scripts/check_wikiTags.js",
     "wikidata": "node scripts/build_wikidata.js"
