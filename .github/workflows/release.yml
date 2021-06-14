@@ -24,12 +24,12 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: 16.x
-    - run: npm i run-s
+    #- run: npm i run-s
     #- run: npm run dist
     - run: npm run dist:files
     - run: npm run dist:javascript
     - run: npm run dist:version
-    - run: npm run wikidata
+    #- run: npm run wikidata
 
     - name: Update dist folder to repository
       env:
